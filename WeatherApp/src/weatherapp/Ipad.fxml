@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.IpadController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../resources/background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="rugby" layoutX="27.0" layoutY="267.0" mnemonicParsing="false" onAction="#gorugby" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="gym" layoutX="166.0" layoutY="267.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="karate" layoutX="311.0" layoutY="267.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="fencing" layoutX="25.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="bowling" layoutX="163.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="rowing" layoutX="311.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="hockey" layoutX="28.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="cricket" layoutX="169.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="skiing" layoutX="307.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="basketball" layoutX="454.0" layoutY="267.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="running" layoutX="452.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="pingpong" layoutX="451.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="tennis" layoutX="596.0" layoutY="267.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="football" layoutX="596.0" layoutY="412.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="baseball" layoutX="592.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="swimming" layoutX="738.0" layoutY="267.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="voleyball" layoutX="734.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="yoga" layoutX="734.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="cycling" layoutX="875.0" layoutY="267.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="golf" layoutX="873.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="boxing" layoutX="875.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="goiphone" layoutX="8.0" layoutY="6.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
+      <Label fx:id="label" layoutX="22.0" layoutY="101.0" onMouseMoved="#getTime" text="00:00">
+         <font>
+            <Font size="48.0" />
+         </font>
+         <effect>
+            <DropShadow color="#aeaeae" offsetX="7.0" offsetY="7.0" />
+         </effect>
+      </Label>
+      <Label fx:id="label2" layoutX="146.0" layoutY="123.0" onMouseMoved="#getTime" prefHeight="16.0" prefWidth="47.0">
+         <effect>
+            <DropShadow color="#9a9a9a" offsetX="5.0" offsetY="5.0" />
+         </effect>
+      </Label>
+      <ImageView layoutX="394.0" opacity="0.68">
+         <image>
+            <Image url="@../resources/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="14.0" layoutY="38.0" opacity="0.71">
+         <image>
+            <Image url="@../resources/home.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="827.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15°" wrappingWidth="143.705078125">
+         <font>
+            <Font name="Arial Narrow" size="92.0" />
+         </font>
+         <effect>
+            <DropShadow color="#c1ff57" offsetX="5.0" offsetY="2.0" />
+         </effect>
+      </Text>
+      <Text layoutX="928.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="London">
+         <font>
+            <Font name="Arial Narrow" size="19.0" />
+         </font>
+      </Text>
+      <ImageView layoutX="22.0" layoutY="181.0" opacity="0.66">
+         <image>
+            <Image url="@../resources/user.png" />
+         </image>
+      </ImageView>
+      <Text fill="#6f6f6f" layoutX="68.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing...">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="searchfield" layoutX="825.0" layoutY="184.0" onAction="#searchActivities" prefHeight="33.0" prefWidth="181.0" promptText="Search Activities">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <ImageView layoutX="800.0" layoutY="178.0">
+         <image>
+            <Image url="@../resources/search.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="927.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mostly Sunny">
+         <font>
+            <Font name="Arial Narrow" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
