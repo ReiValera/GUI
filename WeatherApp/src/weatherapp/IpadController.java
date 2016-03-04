@@ -11,6 +11,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.ResourceBundle;
+import java.util.Timer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.fxml.FXML;
@@ -36,16 +37,21 @@ public class IpadController implements Initializable {
     @FXML  Label label;
     @FXML  Label label2;
     @FXML TextField searchfield;
+    Timer timer = new Timer();
+
     /**
      * Initializes the controller class.
      */
-    @Override
     public void initialize(URL url, ResourceBundle rb) 
     {
-        DateFormat dateFormat = new SimpleDateFormat("HH:mm");
-        Date date = new Date();
-        label.setText(dateFormat.format(date));
+        
+    DateFormat dateFormat = new SimpleDateFormat("HH:mm");
+       Date date = new Date();
+    label.setText(dateFormat.format(date));           
+
+       
     }    
+
     //GO IPHONE VIEW
     public void goiphone() throws IOException
     {
