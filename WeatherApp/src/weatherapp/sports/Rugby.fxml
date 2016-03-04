@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.RugbyController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../../resources/bg1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../../resources/sportsbg.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="909.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="London" wrappingWidth="76.6171875">
+         <font>
+            <Font name="Arial Narrow" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="850.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15°" wrappingWidth="143.705078125">
+         <effect>
+            <DropShadow color="#c1ff57" offsetX="5.0" offsetY="2.0" />
+         </effect>
+         <font>
+            <Font name="Arial Narrow" size="54.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="45.0" fitWidth="46.0" layoutX="124.0" layoutY="8.0" opacity="0.71">
+         <image>
+            <Image url="@../../resources/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="85.0" layoutX="430.0" layoutY="-2.0" opacity="0.48">
+         <image>
+            <Image url="@../../resources/cloud.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" layoutX="180.0" layoutY="11.0" onMouseMoved="#getTime" prefHeight="44.0" prefWidth="102.0" text="00:00" textFill="WHITE">
+         <effect>
+            <DropShadow color="#aeaeae" offsetX="7.0" offsetY="7.0" />
+         </effect>
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="goback" layoutX="930.0" layoutY="727.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
+      <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
+   </children>
+</AnchorPane>
