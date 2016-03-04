@@ -1,5 +1,8 @@
 package weatherapp;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.stage.Stage;
@@ -8,6 +11,7 @@ public class main extends Application {
 
     
     public static void main(String[] args) {
+     
         launch(args);
      
     }
