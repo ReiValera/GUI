@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="768.0" fitWidth="1024.0">
          <image>
-            <Image url="@../../resources/bg1.png" />
+            <Image url="@../../resources/bg2.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="768.0" fitWidth="1024.0">
@@ -46,38 +46,33 @@
       <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
       <ImageView layoutX="19.0" layoutY="192.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/gym1.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="310.0">
          <image>
-            <Image url="@../../resources/rugby2.png" />
+            <Image url="@../../resources/gym2.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="430.0">
          <image>
-            <Image url="@../../resources/rugby3.png" />
+            <Image url="@../../resources/gym3.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="549.0">
          <image>
-            <Image url="@../../resources/rugby4.png" />
+            <Image url="@../../resources/gym4.png" />
          </image>
       </ImageView>
-      <ImageView layoutX="19.0" layoutY="665.0">
-         <image>
-            <Image url="@../../resources/rugby5.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="794.0" layoutY="111.0">
-         <image>
-            <Image url="@../../resources/rugbysmall.png" />
-         </image>
-      </ImageView>
-      <Text fill="#727272" layoutX="861.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rugby">
+      <Text fill="#727272" layoutX="861.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gym">
          <font>
             <Font name="Arial Narrow" size="27.0" />
          </font>
       </Text>
+      <ImageView fitHeight="53.0" fitWidth="58.0" layoutX="789.0" layoutY="112.0">
+         <image>
+            <Image url="@../../resources/gymgym.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
