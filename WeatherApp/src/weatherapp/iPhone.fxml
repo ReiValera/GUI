@@ -23,11 +23,6 @@
       <Button fx:id="swimming" layoutX="179.0" layoutY="197.0" mnemonicParsing="false" opacity="0.48" prefHeight="74.0" prefWidth="75.0" />
       <Button fx:id="volleyball" layoutX="180.0" layoutY="280.0" mnemonicParsing="false" opacity="0.48" prefHeight="74.0" prefWidth="75.0" />
       <Button fx:id="goipad" layoutX="7.0" layoutY="7.0" mnemonicParsing="false" onAction="#goipad" text="Ipad View" />
-      <ImageView fitHeight="115.0" fitWidth="119.0" layoutX="72.0" opacity="0.55">
-         <image>
-            <Image url="@../resources/cloud.png" />
-         </image>
-      </ImageView>
       <Label layoutX="9.0" layoutY="71.0" text="00:00">
          <font>
             <Font size="31.0" />
@@ -47,5 +42,10 @@
          </image>
       </ImageView>
       <Text fill="#575757" layoutX="47.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing...." wrappingWidth="189.4410400390625" />
+      <ImageView fitHeight="96.0" fitWidth="98.0" layoutX="83.0">
+         <image>
+            <Image url="@../resources/raincloud_sun1.gif" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
