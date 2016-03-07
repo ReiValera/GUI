@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="768.0" fitWidth="1024.0">
          <image>
-            <Image url="@../../resources/bg4.png" />
+            <Image url="@../../resources/bg1.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="768.0" fitWidth="1024.0">
@@ -43,16 +43,41 @@
          </font>
       </Label>
       <Button fx:id="goback" layoutX="930.0" layoutY="727.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
-      <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="794.0" layoutY="111.0">
+      <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
+      <ImageView layoutX="19.0" layoutY="192.0">
          <image>
-            <Image url="@../../resources/basketballsmall.png" />
+            <Image url="@../../resources/rugby1.png" />
          </image>
       </ImageView>
-      <Text fill="#727272" layoutX="861.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Basketball">
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/rugby2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/rugby3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/rugby4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="665.0">
+         <image>
+            <Image url="@../../resources/rugby5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="794.0" layoutY="111.0">
+         <image>
+            <Image url="@../../resources/rugbysmall.png" />
+         </image>
+      </ImageView>
+      <Text fill="#727272" layoutX="861.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rugby">
          <font>
             <Font name="Arial Narrow" size="27.0" />
          </font>
       </Text>
-      <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
    </children>
 </AnchorPane>

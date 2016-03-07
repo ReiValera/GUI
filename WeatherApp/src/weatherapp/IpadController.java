@@ -33,6 +33,10 @@ public class IpadController implements Initializable {
 
     @FXML Button goiphone;
     @FXML Button rugby;
+    @FXML Button gym;
+    @FXML Button karate;
+    @FXML Button tennis;
+    @FXML Button basketball;
 
     @FXML  Label label;
     @FXML  Label label2;
@@ -72,7 +76,7 @@ public class IpadController implements Initializable {
     {
         try
         {
-            Stage stage = (Stage) goiphone.getScene().getWindow();
+            Stage stage = (Stage) rugby.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("sports/Rugby.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
@@ -82,6 +86,106 @@ public class IpadController implements Initializable {
             Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    
+          //GO GYM VIEW
+    public void gogym() throws IOException
+    {
+        try
+        {
+            Stage stage = (Stage) gym.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("sports/Gym.fxml"));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } 
+        catch (IOException ex) 
+        {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+              //GO KARATE VIEW
+    public void gokarate() throws IOException
+    {
+        try
+        {
+            Stage stage = (Stage) karate.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("sports/Karate.fxml"));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } 
+        catch (IOException ex) 
+        {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    
+    
+              //GO BASKETBALL VIEW
+    public void gobasketball() throws IOException
+    {
+        try
+        {
+            Stage stage = (Stage) basketball.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("sports/Basketball.fxml"));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } 
+        catch (IOException ex) 
+        {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+        //GO TENNIS VIEW
+        public void gotennis() throws IOException
+    {
+        try
+        {
+            Stage stage = (Stage) tennis.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("sports/Tennis.fxml"));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } 
+        catch (IOException ex) 
+        {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+        //GO SWIMMING VIEW
+           public void goswimming() throws IOException
+    {
+        try
+        {
+            Stage stage = (Stage) tennis.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("sports/Swimming.fxml"));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } 
+        catch (IOException ex) 
+        {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+                   //GO CYCLING VIEW
+           public void gocycling() throws IOException
+    {
+        try
+        {
+            Stage stage = (Stage) tennis.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("sports/Cycling.fxml"));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } 
+        catch (IOException ex) 
+        {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+           
     public void searchActivities()
     {
         String input=searchfield.getText();
