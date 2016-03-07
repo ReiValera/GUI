@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.BasketballiphoneController">
+   <children>
+      <ImageView fitHeight="480.0" fitWidth="320.0">
+         <image>
+            <Image url="@../../resources/iphonebackgroundings.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="75.0" layoutY="101.0" mnemonicParsing="false" onAction="#goback" text="Back" />
+   </children>
+</AnchorPane>
