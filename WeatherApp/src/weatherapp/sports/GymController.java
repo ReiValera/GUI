@@ -5,6 +5,7 @@
  */
 package weatherapp.sports;
 
+import api.WeatherAPI;
 import java.io.IOException;
 import java.net.URL;
 import java.text.DateFormat;
@@ -30,56 +31,48 @@ import weatherapp.IphoneController;
  */
 public class GymController implements Initializable {
 
-    @FXML private Label label;
-    @FXML private Button goback;
-    @FXML private Button goiphone;
-
-    /**
-     * Initializes the controller class.
-     */
+      @FXML
+    Button goback;
+    @FXML
+    private Label temp;
+    @FXML
+    private Label location;
+    @FXML
+    private Label condition;
+    @FXML
+    private Button goiphone;
+    
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
-    
-    
-public void getTime()
-{
-    DateFormat dateFormat = new SimpleDateFormat("HH:mm");
-    DateFormat dateFormat2 = new SimpleDateFormat("a");
-
-Date date = new Date();
-Date date2 = new Date();
-
-System.out.println(dateFormat.format(date)); // 15:59
-label.setText(dateFormat.format(date));
-
-}
-
-    //GO RUGBY VIEW
-          public void goback() throws IOException
+    public void initialize(URL url, ResourceBundle rb)
     {
-          try {
-            Stage stage = (Stage) goback.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("../Ipad.fxml"));
-            Scene scene = new Scene(root);
-            stage.setScene(scene);
-        } catch (IOException ex) {
-            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        WeatherAPI weather = new WeatherAPI("44418");
+        temp.setText(weather.CurrentTemp);
+        location.setText(weather.Location);
+        condition.setText(weather.Condition);
     }
-          
-              //GO IPHONE VIEW
-      public void goiphone() throws IOException
+     public void goiphone() throws IOException 
     {
-          try {
+        try 
+        {
             Stage stage = (Stage) goiphone.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("../iPhone.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
-        } catch (IOException ex) {
+        } 
+        catch (IOException ex)
+        {
             Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
+    public void goback() throws IOException {
+        try {
+            Stage stage = (Stage) goback.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("../iPad.fxml"));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } catch (IOException ex) {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }  
 }

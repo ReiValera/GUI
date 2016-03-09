@@ -29,7 +29,7 @@ import weatherapp.IphoneController;
 public class BaseballController implements Initializable {
 
     @FXML
-    Button back;
+    Button goback;
     @FXML
     private Label temp;
     @FXML
@@ -64,7 +64,7 @@ public class BaseballController implements Initializable {
 
     public void goback() throws IOException {
         try {
-            Stage stage = (Stage) back.getScene().getWindow();
+            Stage stage = (Stage) goback.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("../iPad.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
