@@ -56,11 +56,6 @@
             <Image url="@../resources/home.png" />
          </image>
       </ImageView>
-      <Text layoutX="929.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="London">
-         <font>
-            <Font name="Arial Narrow" size="19.0" />
-         </font>
-      </Text>
       <ImageView layoutX="22.0" layoutY="181.0" opacity="0.66">
          <image>
             <Image url="@../resources/user.png" />
@@ -81,23 +76,28 @@
             <Image url="@../resources/search.png" />
          </image>
       </ImageView>
-      <Text layoutX="928.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mostly Sunny">
-         <font>
-            <Font name="Arial Narrow" size="16.0" />
-         </font>
-      </Text>
       <ImageView fitHeight="143.0" fitWidth="168.0" layoutX="424.0" layoutY="18.0">
          <image>
             <Image url="@../resources/output_Ibk8Un.gif" />
          </image>
       </ImageView>
-      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="809.0" layoutY="-4.0" prefHeight="158.0" prefWidth="114.0" text="8">
+      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="802.0" layoutY="-4.0" prefHeight="158.0" prefWidth="114.0" text="8">
          <font>
             <Font name="Calibri Light" size="120.0" />
          </font></Label>
-      <Label layoutX="923.0" layoutY="31.0" prefHeight="37.0" prefWidth="44.0" text="°C">
+      <Label layoutX="919.0" layoutY="31.0" prefHeight="37.0" prefWidth="44.0" text="°C">
          <font>
             <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="location" layoutX="922.0" layoutY="67.0" prefHeight="24.0" prefWidth="91.0" text="Location">
+         <font>
+            <Font name="Arial Nova" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="condition" layoutX="921.0" layoutY="91.0" prefHeight="24.0" prefWidth="101.0" text="Condition">
+         <font>
+            <Font name="Arial Nova" size="15.0" />
          </font>
       </Label>
    </children>

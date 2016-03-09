@@ -76,6 +76,10 @@ public class IPadController implements Initializable {
     private TextField searchfield;
     @FXML
     private Label temp;
+    @FXML
+    private Label location;
+    @FXML
+    private Label condition;
 
     /**
      * Initializes the controller class.
@@ -84,6 +88,9 @@ public class IPadController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         WeatherAPI weather = new WeatherAPI("44418");
         temp.setText(weather.CurrentTemp);
+        location.setText(weather.Location);
+        condition.setText(weather.Condition);
+        
     }    
 
     public void goiphone() throws IOException 

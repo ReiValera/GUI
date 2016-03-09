@@ -11,7 +11,7 @@ public class WeatherAPI
 	static String theCity;
 	static ArrayList<Forecast> weatherForecastList;
 	public static String CurrentTemp;
-        static String Location;
+        public static String Location;
         public static String Condition;
        
 	public class Forecast
@@ -45,7 +45,7 @@ public class WeatherAPI
 				String cityString = getValueForKey(weatherForecast, "city");
 				String countryString=getValueForKey(weatherForecast,"country");
                                 
-                                Location = cityString + " " + countryString;
+                                Location = cityString;
 				
 				// move to end of this forecast
 				startIndex = endIndex;
