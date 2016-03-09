@@ -8,6 +8,7 @@ public class TestWeather
 		System.out.println(weather.theWeatherRSS);
                 System.out.println(weather.Location);
                 System.out.println(weather.CurrentTemp);
+                System.out.println(weather.Condition);
 
 		for(int i = 0; i < weather.weatherForecastList.size(); i++)
 		{

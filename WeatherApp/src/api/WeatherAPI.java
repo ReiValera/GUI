@@ -12,6 +12,7 @@ public class WeatherAPI
 	static ArrayList<Forecast> weatherForecastList;
 	public static String CurrentTemp;
         static String Location;
+        public static String Condition;
        
 	public class Forecast
 	{
@@ -67,10 +68,10 @@ public class WeatherAPI
 
 				// get temp forecast				
 				String tempString = getValueForKey(weatherForecast, "temp");
-				String dateString=getValueForKey(weatherForecast,"date");
+				String textString=getValueForKey(weatherForecast,"text");
                                 
                                 CurrentTemp= tempString;
-
+                                Condition = textString;
 				
 				// move to end of this forecast
 				startIndex = endIndex;
