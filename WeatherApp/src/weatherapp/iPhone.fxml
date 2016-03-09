@@ -41,6 +41,6 @@
             <Image url="@../resources/raincloud_sun1.gif" />
          </image>
       </ImageView>
-      <Button fx:id="goipad1" layoutX="17.0" layoutY="17.0" mnemonicParsing="false" onAction="#goipad" text="Ipad View" />
+      <Button fx:id="goipad" layoutX="17.0" layoutY="17.0" mnemonicParsing="false" onAction="#goipad" text="Ipad View" />
    </children>
 </AnchorPane>
