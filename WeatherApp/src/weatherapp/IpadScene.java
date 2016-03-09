@@ -12,7 +12,7 @@ public class IpadScene {
 
     public IpadScene() {
         try {
-            Parent root = FXMLLoader. load(getClass().getResource("Ipad.fxml"));
+            Parent root = FXMLLoader. load(getClass().getResource("iPad.fxml"));
             scene = new Scene(root);
         } catch (IOException e) {
             e.printStackTrace();

@@ -10,7 +10,7 @@ public class WeatherAPI
 	static String theWeatherRSS;
 	static String theCity;
 	static ArrayList<Forecast> weatherForecastList;
-	static String CurrentTemp;
+	public static String CurrentTemp;
         static String Location;
        
 	public class Forecast
