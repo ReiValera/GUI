@@ -19,30 +19,36 @@
       <Button fx:id="rugby" layoutX="27.0" layoutY="267.0" mnemonicParsing="false" onAction="#gorugby" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="gym" layoutX="166.0" layoutY="267.0" mnemonicParsing="false" onAction="#gogym" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="karate" layoutX="311.0" layoutY="267.0" mnemonicParsing="false" onAction="#gokarate" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="fencing" layoutX="25.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="bowling" layoutX="163.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="rowing" layoutX="311.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="hockey" layoutX="28.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="cricket" layoutX="169.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="skiing" layoutX="307.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="fencing" layoutX="25.0" layoutY="411.0" mnemonicParsing="false" onAction="#gofencing" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="bowling" layoutX="163.0" layoutY="411.0" mnemonicParsing="false" onAction="#gobowling" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="rowing" layoutX="311.0" layoutY="411.0" mnemonicParsing="false" onAction="#gorowing" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="hockey" layoutX="28.0" layoutY="551.0" mnemonicParsing="false" onAction="#gohockey" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="cricket" layoutX="169.0" layoutY="551.0" mnemonicParsing="false" onAction="#gocricket" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="skiing" layoutX="307.0" layoutY="551.0" mnemonicParsing="false" onAction="#goskiing" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="basketball" layoutX="454.0" layoutY="267.0" mnemonicParsing="false" onAction="#gobasketball" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="running" layoutX="452.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="pingpong" layoutX="451.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="running" layoutX="452.0" layoutY="411.0" mnemonicParsing="false" onAction="#gorunning" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="pingpong" layoutX="451.0" layoutY="551.0" mnemonicParsing="false" onAction="#gopingpong" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="tennis" layoutX="596.0" layoutY="267.0" mnemonicParsing="false" onAction="#gotennis" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="football" layoutX="596.0" layoutY="412.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="baseball" layoutX="592.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="football" layoutX="596.0" layoutY="412.0" mnemonicParsing="false" onAction="#gofootball" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="baseball" layoutX="592.0" layoutY="551.0" mnemonicParsing="false" onAction="#gobaseball" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="swimming" layoutX="738.0" layoutY="267.0" mnemonicParsing="false" onAction="#goswimming" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="voleyball" layoutX="734.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="yoga" layoutX="734.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="voleyball" layoutX="734.0" layoutY="411.0" mnemonicParsing="false" onAction="#govoleyball" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="yoga" layoutX="734.0" layoutY="551.0" mnemonicParsing="false" onAction="#goyoga" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="cycling" layoutX="875.0" layoutY="267.0" mnemonicParsing="false" onAction="#gocycling" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="golf" layoutX="873.0" layoutY="411.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Button fx:id="boxing" layoutX="875.0" layoutY="551.0" mnemonicParsing="false" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
-      <Label fx:id="label" layoutX="22.0" layoutY="105.0" text="00:00">
+      <Button fx:id="golf" layoutX="873.0" layoutY="411.0" mnemonicParsing="false" onAction="#gogolf" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="boxing" layoutX="875.0" layoutY="551.0" mnemonicParsing="false" onAction="#goboxing" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
+      <Button fx:id="goiphone" layoutX="8.0" layoutY="6.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
+      <Label fx:id="label" layoutX="22.0" layoutY="101.0" onMouseMoved="#getTime" text="00:00">
          <font>
             <Font size="48.0" />
          </font>
          <effect>
             <DropShadow color="#aeaeae" offsetX="7.0" offsetY="7.0" />
+         </effect>
+      </Label>
+      <Label fx:id="label2" layoutX="146.0" layoutY="123.0" onMouseMoved="#getTime" prefHeight="16.0" prefWidth="47.0">
+         <effect>
+            <DropShadow color="#9a9a9a" offsetX="5.0" offsetY="5.0" />
          </effect>
       </Label>
       <ImageView layoutX="14.0" layoutY="38.0" opacity="0.71">
@@ -88,10 +94,9 @@
             <Font name="Arial Narrow" size="16.0" />
          </font>
       </Text>
-      <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
-      <ImageView fitHeight="147.0" fitWidth="150.0" layoutX="423.0" layoutY="10.0">
+      <ImageView fitHeight="143.0" fitWidth="168.0" layoutX="424.0" layoutY="18.0">
          <image>
-            <Image url="@../resources/raincloud_sun1.gif" />
+            <Image url="@../../../WeatherApp/src/resources/output_Ibk8Un.gif" />
          </image>
       </ImageView>
    </children>
