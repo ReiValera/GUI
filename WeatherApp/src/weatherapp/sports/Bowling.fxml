@@ -1,14 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="weatherapp.sports.BowlingController">
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.RugbyController">
    <children>
-      <Button fx:id="back" layoutX="310.0" layoutY="109.0" mnemonicParsing="false" onAction="#goback" text="Back" />
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../../resources/bg9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../../resources/sportsbg.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="896.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="London" wrappingWidth="76.6171875">
+         <font>
+            <Font name="Arial Narrow" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="821.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15°" wrappingWidth="143.705078125">
+         <effect>
+            <DropShadow color="#a4a4a4" offsetX="5.0" offsetY="2.0" />
+         </effect>
+         <font>
+            <Font name="Arial Narrow" size="54.0" />
+         </font>
+      </Text>
+      <Label fx:id="label" layoutX="20.0" layoutY="44.0" onMouseMoved="#getTime" prefHeight="44.0" prefWidth="102.0" text="00:00" textFill="WHITE">
+         <effect>
+            <DropShadow color="#aeaeae" offsetX="7.0" offsetY="7.0" />
+         </effect>
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="goback" layoutX="930.0" layoutY="727.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
+      <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="794.0" layoutY="111.0">
+         <image>
+            <Image url="@../../resources/bowlingsmall.png" />
+         </image>
+      </ImageView>
+      <Text fill="#727272" layoutX="861.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bowling">
+         <font>
+            <Font name="Arial Narrow" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
    </children>
 </AnchorPane>

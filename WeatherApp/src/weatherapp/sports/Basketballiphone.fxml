@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,13 +9,59 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.BasketballiphoneController">
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.SwimmingiphoneController">
    <children>
       <ImageView fitHeight="480.0" fitWidth="320.0">
          <image>
-            <Image url="@../../resources/iphonebackgroundings.png" />
+            <Image url="@../../resources/ibg1.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="back" layoutX="75.0" layoutY="101.0" mnemonicParsing="false" onAction="#goback" text="Back" />
+      <ImageView fitHeight="480.0" fitWidth="320.0">
+         <image>
+            <Image url="@../../resources/iphonetemplate.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="13.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CURRENT WEATHER:">
+         <effect>
+            <DropShadow color="#8d8d8d" />
+         </effect>
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="13.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPORT SELECTED:  BASKETBALL">
+         <effect>
+            <DropShadow color="#8d8d8d" />
+         </effect>
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="37.0" fitWidth="41.0" layoutX="211.0" layoutY="117.0">
+         <image>
+            <Image url="@../../resources/basketballsmall.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="181.0">
+         <image>
+            <Image url="@../../resources/rugby1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="249.0">
+         <image>
+            <Image url="@../../resources/rugby1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="314.0">
+         <image>
+            <Image url="@../../resources/rugby1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="378.0">
+         <image>
+            <Image url="@../../resources/rugby1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
    </children>
 </AnchorPane>
