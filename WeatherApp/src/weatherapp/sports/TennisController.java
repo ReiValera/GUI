@@ -5,7 +5,6 @@
  */
 package weatherapp.sports;
 
-import api.WeatherAPI;
 import java.io.IOException;
 import java.net.URL;
 import java.text.DateFormat;
@@ -35,24 +34,14 @@ public class TennisController implements Initializable {
     @FXML private Button goback;
     @FXML private Button goiphone;
 
-      @FXML
-    private Label temp;
-    @FXML
-    private Label location;
-    @FXML
-    private Label condition;
-
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        WeatherAPI weather = new WeatherAPI("44418");
-        temp.setText(weather.CurrentTemp);
-        location.setText(weather.Location);
-        condition.setText(weather.Condition);
-        
+        // TODO
     }    
+    
     
 public void getTime()
 {

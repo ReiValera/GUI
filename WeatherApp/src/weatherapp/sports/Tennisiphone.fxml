@@ -63,6 +63,5 @@
          </image>
       </ImageView>
       <Button fx:id="back" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
-      <Button fx:id="goipad" layoutX="17.0" layoutY="17.0" mnemonicParsing="false" onAction="#goipad" text="Ipad View" />
    </children>
 </AnchorPane>

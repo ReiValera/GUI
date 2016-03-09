@@ -5,7 +5,6 @@
  */
 package weatherapp.sports;
 
-import api.WeatherAPI;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -17,7 +16,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import weatherapp.IphoneController;
 
@@ -32,24 +30,10 @@ public class RunningController implements Initializable {
     Button back;
 
     
-      @FXML
-    private Label temp;
-    @FXML
-    private Label location;
-    @FXML
-    private Label condition;
-
-    /**
-     * Initializes the controller class.
-     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        WeatherAPI weather = new WeatherAPI("44418");
-        temp.setText(weather.CurrentTemp);
-        location.setText(weather.Location);
-        condition.setText(weather.Condition);
         
-    }    
+    }
 
     public void goback() throws IOException {
         try {
