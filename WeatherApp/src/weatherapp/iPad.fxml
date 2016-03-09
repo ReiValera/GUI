@@ -78,7 +78,7 @@
       </ImageView>
       <ImageView fitHeight="143.0" fitWidth="168.0" layoutX="424.0" layoutY="18.0">
          <image>
-            <Image url="@../resources/output_Ibk8Un.gif" />
+            <Image url="@../resources/images-animated-gif.blogspot.com%20(3).gif" />
          </image>
       </ImageView>
       <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="802.0" layoutY="-4.0" prefHeight="158.0" prefWidth="114.0" text="8">
