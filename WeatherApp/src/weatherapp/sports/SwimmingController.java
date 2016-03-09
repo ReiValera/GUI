@@ -5,6 +5,7 @@
  */
 package weatherapp.sports;
 
+import api.WeatherAPI;
 import java.io.IOException;
 import java.net.URL;
 import java.text.DateFormat;
@@ -34,12 +35,23 @@ public class SwimmingController implements Initializable {
     @FXML private Button goback;
     @FXML private Button goiphone;
 
+      @FXML
+    private Label temp;
+    @FXML
+    private Label location;
+    @FXML
+    private Label condition;
+
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        WeatherAPI weather = new WeatherAPI("44418");
+        temp.setText(weather.CurrentTemp);
+        location.setText(weather.Location);
+        condition.setText(weather.Condition);
+        
     }    
     
     

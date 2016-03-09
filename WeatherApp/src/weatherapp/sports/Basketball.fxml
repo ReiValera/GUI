@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.RugbyController">
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.BasketballController">
    <children>
       <ImageView fitHeight="768.0" fitWidth="1024.0">
          <image>
@@ -54,5 +54,23 @@
          </font>
       </Text>
       <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
+      <Label layoutX="132.0" layoutY="353.0" text="Address: Ravenscourt Park, King Street, Hammersmith, W6" />
+      <Label layoutX="132.0" layoutY="225.0" text="Address: 190 Burdett Road Mile End London E3 4HL" />
+      <Label layoutX="132.0" layoutY="453.0" prefHeight="44.0" prefWidth="465.0" text="Address: London Fields Park London Fields Westside E8 3EU" />
+      <ImageView layoutX="20.0" layoutY="431.0">
+         <image>
+            <Image url="@../../resources/basketball3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="20.0" layoutY="313.0">
+         <image>
+            <Image url="@../../resources/basketball2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="20.0" layoutY="193.0">
+         <image>
+            <Image url="@../../resources/basketball1.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

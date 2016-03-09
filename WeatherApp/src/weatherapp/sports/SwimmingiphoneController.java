@@ -5,6 +5,7 @@
  */
 package weatherapp.sports;
 
+import api.WeatherAPI;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -16,6 +17,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import weatherapp.IphoneController;
 
@@ -28,14 +30,24 @@ import weatherapp.IphoneController;
 
 public class SwimmingiphoneController implements Initializable {
 @FXML Button back;
+     @FXML
+    private Label temp;
+    @FXML
+    private Label location;
+    @FXML
+    private Label condition;
+
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }
-
+        WeatherAPI weather = new WeatherAPI("44418");
+        temp.setText(weather.CurrentTemp);
+        location.setText(weather.Location);
+        condition.setText(weather.Condition);
+        
+    }    
     
     public void goback() throws IOException
     {
@@ -50,4 +62,17 @@ public class SwimmingiphoneController implements Initializable {
             Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    
+         public void goipad() throws IOException {
+        try {
+            Stage stage = (Stage) back.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("Swimming.fxml"));
+            Scene scene = new Scene(root, 1024, 768);
+            stage.setScene(scene);
+        } catch (IOException ex) {
+            Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+}
+
 }

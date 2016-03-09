@@ -74,5 +74,18 @@
             <Image url="@../../resources/gymgym.png" />
          </image>
       </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/gym5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="139.0" layoutY="687.0" text="Address: 190461 Bethnal Green Rd" />
+      <Label layoutX="139.0" layoutY="706.0" text="Phone: 020 7613 1631" />
+      <Label layoutX="139.0" layoutY="724.0" text="Open until 22:00 " />
+      <Label layoutX="139.0" layoutY="581.0" text="Address: 190 Burdett Rd" />
+      <Label layoutX="139.0" layoutY="598.0" text="Phone: 020 8709 4420" />
+      <Label layoutX="139.0" layoutY="462.0" text="Address: 15 Godward Square" />
+      <Label layoutX="139.0" layoutY="480.0" text="Phone: 020 7882 8040" />
+      <Label layoutX="139.0" layoutY="498.0" text="Open until 21:00" />
    </children>
 </AnchorPane>
