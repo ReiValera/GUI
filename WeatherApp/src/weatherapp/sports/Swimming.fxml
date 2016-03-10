@@ -57,11 +57,11 @@
             <Image url="@../../resources/images-animated-gif.blogspot.com%20(3).gif" />
          </image>
       </ImageView>
-      <Button fx:id="goback1" layoutX="33.0" layoutY="48.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
       <ImageView fitHeight="43.0" fitWidth="44.0" layoutX="41.0" layoutY="51.0" opacity="0.3">
          <image>
             <Image url="@../../resources/Button-back-512.png" />
          </image>
       </ImageView>
+      <Button fx:id="goback" layoutX="33.0" layoutY="48.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
    </children>
 </AnchorPane>

@@ -57,6 +57,70 @@ public class RunningController implements Initializable {
         temp.setText(weather.CurrentTemp);
         location.setText(weather.Location);
         condition.setText(weather.Condition);
+        switch(weather.code)
+        {
+            case "1":
+            case "2":
+            case "3":
+            case "4":
+            case "5":
+            case "6":
+            case "7":
+            case "8":
+            case "9":
+            case "10":
+            case "11":
+            case "12":
+            case "13":
+            case "14":
+            case "15":
+            case "16":
+            case "17":
+            case "18":
+            case "19":
+            case "20":
+            case "21":
+            case "22":
+            case "23":
+            case "35":
+            case "37":    
+            case "38":
+            case "39":
+            case "40":
+            case "41":
+            case "42":
+            case "43":
+                icon.setImage(rain);
+                break;
+            case "30":
+            case "34":
+            case "44":
+                icon.setImage(mostlySunny);
+                break;
+            case "32":
+            case "36":
+                icon.setImage(sunny);
+                break;
+            case "27":
+            case "29":
+            case "31":
+            case "33":
+                icon.setImage(night);
+                break;
+            case "26":
+                icon.setImage(cloudy);
+                break;
+            case "28":
+                icon.setImage(mostlyCloudy);
+                break;
+            case "25":
+            case "24":
+                icon.setImage(windy);
+                break;
+            default:
+                icon.setImage(cloudy);
+                break;
+        }
     }
      public void goiphone() throws IOException 
     {
