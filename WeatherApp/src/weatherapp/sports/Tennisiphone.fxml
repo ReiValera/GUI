@@ -83,5 +83,10 @@
             <Font name="Arial Narrow" size="15.0" />
          </font>
       </Label>
+      <ImageView fx:id="icon" fitHeight="69.0" fitWidth="70.0" layoutX="116.0" layoutY="6.0">
+         <image>
+            <Image url="@../../resources/images-animated-gif.blogspot.com%20(3).gif" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

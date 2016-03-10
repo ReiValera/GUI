@@ -18,6 +18,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import weatherapp.IphoneController;
 
@@ -38,7 +40,16 @@ public class RunningController implements Initializable {
     private Label condition;
     @FXML
     private Button goiphone;
-    
+        @FXML
+    ImageView icon;
+        
+    Image mostlyCloudy = new Image("resources/mostlycloudy.gif");
+    Image mostlySunny = new Image("resources/mostlysunny.gif");
+    Image rain = new Image("resources/rainy.gif");
+    Image sunny = new Image("resources/sunny.gif");
+    Image night = new Image("resources/moon.gif");
+    Image cloudy = new Image("resources/cloudy.gif");
+    Image windy = new Image("resources/windy.gif");
     @Override
     public void initialize(URL url, ResourceBundle rb)
     {

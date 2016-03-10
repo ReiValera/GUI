@@ -13,6 +13,7 @@ public class WeatherAPI
 	public static String CurrentTemp;
         public static String Location;
         public static String Condition;
+        public static String code;
        
 	public class Forecast
 	{
@@ -69,9 +70,11 @@ public class WeatherAPI
 				// get temp forecast				
 				String tempString = getValueForKey(weatherForecast, "temp");
 				String textString=getValueForKey(weatherForecast,"text");
+                                String codeString=getValueForKey(weatherForecast,"code");
                                 
                                 CurrentTemp= tempString;
                                 Condition = textString;
+                                code = codeString;
 				
 				// move to end of this forecast
 				startIndex = endIndex;
