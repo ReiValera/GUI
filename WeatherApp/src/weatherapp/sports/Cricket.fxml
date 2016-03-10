@@ -10,13 +10,18 @@
 <?import javafx.scene.layout.*?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.RugbyController">
+=======
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.CricketController">
+>>>>>>> origin/master
 =======
 <AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapp.sports.CricketController">
 >>>>>>> origin/master
    <children>
       <ImageView fitHeight="768.0" fitWidth="1024.0">
          <image>
+<<<<<<< HEAD
 <<<<<<< HEAD
             <Image url="@../../resources/bg4.png" />
          </image>
@@ -59,6 +64,58 @@
          </font>
       </Text>
       <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
+=======
+            <Image url="@../../resources/bg1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../../resources/sportsbg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="794.0" layoutY="113.0">
+         <image>
+            <Image url="@../../resources/cricketsmall.png" />
+         </image>
+      </ImageView>
+      <Text fill="#727272" layoutX="861.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cricket">
+         <font>
+            <Font name="Arial Narrow" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
+      <Label fx:id="location" layoutX="959.0" layoutY="69.0" prefHeight="24.0" prefWidth="60.0" text="Location">
+         <font>
+            <Font name="Arial Nova" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="954.0" layoutY="17.0" prefHeight="37.0" prefWidth="44.0" text="°C">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="866.0" prefHeight="92.0" prefWidth="82.0" text="8">
+         <font>
+            <Font name="Calibri Light" size="100.0" />
+         </font>
+      </Label>
+      <Label fx:id="condition" layoutX="311.0" layoutY="117.0" prefHeight="43.0" prefWidth="163.0" text="Condition" textFill="#7c7474">
+         <font>
+            <Font name="Arial Narrow" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="icon" fitHeight="105.0" fitWidth="102.0" layoutX="456.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../resources/images-animated-gif.blogspot.com%20(3).gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="goback1" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView fitHeight="43.0" fitWidth="44.0" layoutX="42.0" layoutY="47.0" opacity="0.3">
+         <image>
+            <Image url="@../../resources/Button-back-512.png" />
+         </image>
+      </ImageView>
+>>>>>>> origin/master
 =======
             <Image url="@../../resources/bg1.png" />
          </image>
