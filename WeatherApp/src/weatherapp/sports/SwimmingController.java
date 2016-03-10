@@ -49,12 +49,12 @@ public class SwimmingController implements Initializable {
         location.setText(weather.Location);
         condition.setText(weather.Condition);
     }
-     public void goipad() throws IOException 
+     public void goiphone() throws IOException 
     {
         try 
         {
             Stage stage = (Stage) goiphone.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("Swimming.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../iPhone.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } 
