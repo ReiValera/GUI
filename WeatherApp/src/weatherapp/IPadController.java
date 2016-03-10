@@ -15,6 +15,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 /**
@@ -80,7 +82,10 @@ public class IPadController implements Initializable {
     private Label location;
     @FXML
     private Label condition;
+    @FXML
+    ImageView icon;
 
+    //Image image = new Image("resources/volleysmall.png");
     /**
      * Initializes the controller class.
      */
@@ -90,6 +95,7 @@ public class IPadController implements Initializable {
         temp.setText(weather.CurrentTemp);
         location.setText(weather.Location);
         condition.setText(weather.Condition);
+        //icon.setImage(image);
         
     }    
 

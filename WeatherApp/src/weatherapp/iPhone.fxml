@@ -36,7 +36,7 @@
          </image>
       </ImageView>
       <Text fill="#575757" layoutX="63.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing...." wrappingWidth="189.4410400390625" />
-      <ImageView fitHeight="98.0" fitWidth="99.0" layoutX="100.0" layoutY="14.0">
+      <ImageView fx:id="icon" fitHeight="98.0" fitWidth="99.0" layoutX="100.0" layoutY="14.0">
          <image>
             <Image url="@../resources/raincloud_sun1.gif" />
          </image>

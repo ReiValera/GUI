@@ -18,6 +18,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 /**
@@ -47,6 +49,10 @@ public class IphoneController implements Initializable {
     Label condition;
     @FXML
     Label temp;
+    @FXML
+    ImageView icon;
+    
+    //Image image = new Image("resources/volleysmall.png");
     /**
      * Initializes the controller class.
      */
@@ -56,6 +62,7 @@ public class IphoneController implements Initializable {
         temp.setText(weather.CurrentTemp);
         location.setText(weather.Location);
         condition.setText(weather.Condition);
+        //icon.setImage(image);
     }    
     public void goipad() throws IOException {
         try {
