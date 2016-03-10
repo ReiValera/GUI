@@ -5,19 +5,27 @@
  */
 package weatherapp;
 
+import api.WeatherAPI;
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javafx.application.Application;
-import static javafx.application.ConditionalFeature.FXML;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
-public class IphoneController extends Application {
+/**
+ * FXML Controller class
+ *
+ * @author Owner
+ */
+public class IphoneController implements Initializable {
 
     @FXML
     Button goipad;
@@ -33,12 +41,22 @@ public class IphoneController extends Application {
     Button football;
     @FXML
     Button volleyball;
-
+    @FXML
+    Label location;
+    @FXML
+    Label condition;
+    @FXML
+    Label temp;
+    /**
+     * Initializes the controller class.
+     */
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
+    public void initialize(URL url, ResourceBundle rb) {
+        WeatherAPI weather = new WeatherAPI("44418");
+        temp.setText(weather.CurrentTemp);
+        location.setText(weather.Location);
+        condition.setText(weather.Condition);
+    }    
     public void goipad() throws IOException {
         try {
             Stage stage = (Stage) goipad.getScene().getWindow();
@@ -116,5 +134,4 @@ public class IphoneController extends Application {
             Logger.getLogger(IphoneController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
 }

@@ -36,11 +36,31 @@
          </image>
       </ImageView>
       <Text fill="#575757" layoutX="63.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing...." wrappingWidth="189.4410400390625" />
-      <ImageView fitHeight="136.0" fitWidth="144.0" layoutX="82.0">
+      <ImageView fitHeight="98.0" fitWidth="99.0" layoutX="100.0" layoutY="14.0">
          <image>
             <Image url="@../resources/raincloud_sun1.gif" />
          </image>
       </ImageView>
       <Button fx:id="goipad" layoutX="17.0" layoutY="17.0" mnemonicParsing="false" onAction="#goipad" text="Ipad View" />
+      <Label fx:id="location" layoutX="233.0" layoutY="13.0" prefHeight="25.0" prefWidth="69.0" text="Location">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="condition" layoutX="232.0" layoutY="39.0" prefHeight="25.0" prefWidth="80.0" text="Condition">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="219.0" layoutY="57.0" prefHeight="62.0" prefWidth="69.0" text="10" textAlignment="RIGHT">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="60.0" prefHeight="34.0" prefWidth="28.0" text="°C">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
