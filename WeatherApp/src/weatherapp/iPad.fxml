@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="768.0" fitWidth="1024.0">
          <image>
-            <Image url="@../resources/background.png" />
+            <Image url="@../resources/ipadbg.png" />
          </image>
       </ImageView>
       <Button fx:id="rugby" layoutX="27.0" layoutY="267.0" mnemonicParsing="false" onAction="#gorugby" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
@@ -38,14 +38,6 @@
       <Button fx:id="golf" layoutX="873.0" layoutY="411.0" mnemonicParsing="false" onAction="#gogolf" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="boxing" layoutX="875.0" layoutY="551.0" mnemonicParsing="false" onAction="#goboxing" opacity="0.17" prefHeight="124.0" prefWidth="128.0" />
       <Button fx:id="goiphone" layoutX="8.0" layoutY="6.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
-      <Label fx:id="label" layoutX="22.0" layoutY="101.0" text="00:00">
-         <effect>
-            <DropShadow color="#aeaeae" offsetX="7.0" offsetY="7.0" />
-         </effect>
-         <font>
-            <Font size="48.0" />
-         </font>
-      </Label>
       <Label fx:id="label2" layoutX="146.0" layoutY="123.0" prefHeight="16.0" prefWidth="47.0">
          <effect>
             <DropShadow color="#9a9a9a" offsetX="5.0" offsetY="5.0" />
@@ -61,21 +53,11 @@
             <Image url="@../resources/user.png" />
          </image>
       </ImageView>
-      <Text fill="#6f6f6f" layoutX="68.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing...">
+      <Text fill="#6f6f6f" layoutX="69.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing..                                              Don't feel like looking?" wrappingWidth="766.9022827148438">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <TextField fx:id="searchfield" layoutX="825.0" layoutY="184.0" prefHeight="33.0" prefWidth="181.0" promptText="Search Activities">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </TextField>
-      <ImageView layoutX="800.0" layoutY="178.0">
-         <image>
-            <Image url="@../resources/search.png" />
-         </image>
-      </ImageView>
       <ImageView fx:id="icon" fitHeight="158.0" fitWidth="158.0" layoutX="436.0">
          <image>
             <Image url="@../resources/images-animated-gif.blogspot.com%20(3).gif" />
@@ -100,5 +82,20 @@
             <Font name="Arial Nova" size="15.0" />
          </font>
       </Label>
+      <Label layoutX="259.0" layoutY="713.0" prefHeight="16.0" prefWidth="211.0" text="Last update of Weather on:" textFill="#32a8e8">
+         <font>
+            <Font name="Arial Narrow" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="470.0" layoutY="713.0" text="Label" textFill="#32a8e8">
+         <font>
+            <Font name="Arial Narrow" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="jump" layoutX="828.0" layoutY="191.0" onAction="#jumptosport" promptText="Jump to Sport">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
    </children>
 </AnchorPane>

@@ -82,9 +82,13 @@ public class IPadController implements Initializable {
     private Label location;
     @FXML
     private Label condition;
+     @FXML
+    private Label date;
     @FXML
     ImageView icon;
-
+    @FXML
+    private TextField jump;
+    
     Image mostlyCloudy = new Image("resources/mostlycloudy.gif");
     Image mostlySunny = new Image("resources/mostlysunny.gif");
     Image rain = new Image("resources/rainy.gif");
@@ -101,6 +105,7 @@ public class IPadController implements Initializable {
         temp.setText(weather.CurrentTemp);
         location.setText(weather.Location);
         condition.setText(weather.Condition);
+        date.setText(weather.date);
         switch(weather.code)
         {
             case "1":
@@ -168,7 +173,90 @@ public class IPadController implements Initializable {
         
         
     }    
-
+    public void jumptosport() throws IOException
+    {
+        String input=jump.getText();
+    if (input.equals("Rugby"))
+    {
+        gorugby();
+    }
+    else if(input.equals("Basketball"))
+    {
+        gobasketball();
+    }
+       else if(input.equals("Basketball"))
+    {
+        gobasketball();
+    }
+       else if(input.equals("Running"))
+    {
+        gorunning();
+    }
+       else if(input.equals("Rowing"))
+    {
+        gorowing();
+    }
+       else if(input.equals("Swimming"))
+    {
+        goswimming();
+    }
+       else if(input.equals("Gym"))
+    {
+        gogym();
+    }
+       else if(input.equals("Bowling"))
+    {
+        gobowling();
+    }
+       else if(input.equals("Cycling"))
+    {
+        gocycling();
+    }
+       else if(input.equals("Football"))
+    {
+        gofootball();
+    }
+       else if(input.equals("Golf"))
+    {
+        gogolf();
+    }
+       else if(input.equals("Hockey"))
+    {
+        gohockey();
+    }
+       else if(input.equals("Ping Pong"))
+    {
+        gopingpong();
+    }
+       else if(input.equals("Tennis"))
+    {
+        gotennis();
+    }
+       else if(input.equals("Voleyball"))
+    {
+        govoleyball();
+    }
+       else if(input.equals("Yoga"))
+    {
+        goyoga();
+    }
+       else if(input.equals("Boxing"))
+    {
+        goboxing();
+    }
+       else if(input.equals("Karate"))
+    {
+        gokarate();
+    }
+       else if(input.equals("Cricket"))
+    {
+        gocricket();
+    }
+       else if(input.equals("Baseball"))
+    {
+        gobaseball();
+    }
+    }
     public void goiphone() throws IOException 
     {
         try 

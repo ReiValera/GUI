@@ -142,7 +142,7 @@ public class SwimmingController implements Initializable {
     public void goback() throws IOException {
         try {
             Stage stage = (Stage) goback.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("../iPhone.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../iPad.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } catch (IOException ex) {
