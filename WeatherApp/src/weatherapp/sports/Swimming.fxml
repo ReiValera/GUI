@@ -63,5 +63,30 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="33.0" layoutY="48.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="19.0" layoutY="192.0">
+         <image>
+            <Image url="@../../resources/swimming1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="20.0" layoutY="309.0">
+         <image>
+            <Image url="@../../resources/swimming2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="20.0" layoutY="431.0">
+         <image>
+            <Image url="@../../resources/swimming3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="20.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/swimming4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="667.0">
+         <image>
+            <Image url="@../../resources/swimming5.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
