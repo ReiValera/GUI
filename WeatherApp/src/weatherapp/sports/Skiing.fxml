@@ -61,5 +61,10 @@
             <Font name="Calibri Light" size="100.0" />
          </font>
       </Label>
+      <ImageView fx:id="icon" fitHeight="84.0" fitWidth="85.0" layoutX="456.0" layoutY="20.0">
+         <image>
+            <Image url="@../../resources/images-animated-gif.blogspot.com%20(3).gif" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
