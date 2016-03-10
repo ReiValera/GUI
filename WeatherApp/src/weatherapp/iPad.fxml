@@ -76,7 +76,7 @@
             <Image url="@../resources/search.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="icon" fitHeight="143.0" fitWidth="168.0" layoutX="424.0" layoutY="18.0">
+      <ImageView fx:id="icon" fitHeight="158.0" fitWidth="158.0" layoutX="436.0">
          <image>
             <Image url="@../resources/images-animated-gif.blogspot.com%20(3).gif" />
          </image>
