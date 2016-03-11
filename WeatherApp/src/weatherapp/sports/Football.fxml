@@ -68,12 +68,12 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
-      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02077395195" />
-      <Label layoutX="143.0" layoutY="224.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
-      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02072477538" />
-      <Label layoutX="143.0" layoutY="341.0" text="Address : 55 Durward St, London E1 5BA" />
-      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072491733" />
-      <Label layoutX="143.0" layoutY="461.0" text="Address : 59 Columbia Rd, London E2 7RG" />
+      <Label layoutX="143.0" layoutY="242.0" text="Phone : 020 8960 1111" />
+      <Label layoutX="143.0" layoutY="224.0" text="Address : 326 Kensal Rd, London W10 5BZ" />
+      <Label layoutX="143.0" layoutY="360.0" text="Phone : 020 8702 2590" />
+      <Label layoutX="143.0" layoutY="341.0" text="Address : Westfield Stratford City, London E20 1EN" />
+      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072783982" />
+      <Label layoutX="143.0" layoutY="461.0" text="Address : 31 Vernon St, London W14 0RN" />
       <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078828040" />
       <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
       <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
