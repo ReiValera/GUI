@@ -67,7 +67,7 @@ public class CricketController implements Initializable {
     Image rating4 = new Image("resources/ratingbar4.png");
     
     @Override
-    public void initialize(URL url, ResourceBundle rb)
+    public void initialize(URL url, ResourceBundle rb) //initialises the temperature location and concition from the api
     {
         WeatherAPI weather = new WeatherAPI("44418");
         temp.setText(weather.CurrentTemp);
