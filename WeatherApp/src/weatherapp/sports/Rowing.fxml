@@ -73,5 +73,40 @@
       <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
       <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
       <Label layoutX="143.0" layoutY="576.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
+      <ImageView layoutX="19.0" layoutY="192.0">
+         <image>
+            <Image url="@../../resources/rowing1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/rowing2.png" />
+         </image>
+      </ImageView>
+      <ImageView>
+         <image>
+            <Image url="@../../resources/rowing3.png" />
+         </image>
+      </ImageView>
+      <ImageView>
+         <image>
+            <Image url="@../../resources/rowing3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="550.0">
+         <image>
+            <Image url="@../../resources/rowing4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/rowing5.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/rowing3.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
