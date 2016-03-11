@@ -63,5 +63,40 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02077395195" />
+      <Label layoutX="143.0" layoutY="224.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
+      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02072477538" />
+      <Label layoutX="143.0" layoutY="341.0" text="Address : 55 Durward St, London E1 5BA" />
+      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072491733" />
+      <Label layoutX="143.0" layoutY="461.0" text="Address : 59 Columbia Rd, London E2 7RG" />
+      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078828040" />
+      <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
+      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
+      <Label layoutX="143.0" layoutY="576.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
+      <ImageView layoutX="18.0" layoutY="195.0">
+         <image>
+            <Image url="@../../resources/bowling1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/bowling2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/bowling3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/boxing4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/bowling5.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
