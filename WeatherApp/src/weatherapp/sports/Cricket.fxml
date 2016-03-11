@@ -63,5 +63,40 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="19.0" layoutY="192.0">
+         <image>
+            <Image url="@../../resources/cricket1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/cricket2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/cricket3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/cricket4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/cricket5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="205.0" text="Address : 22 Raven Row, London E1 2EG" />
+      <Label layoutX="133.0" layoutY="228.0" text="Phone : 02072476484" />
+      <Label layoutX="133.0" layoutY="328.0" text="Address : Eleanor Rd E8 3" />
+      <Label layoutX="133.0" layoutY="350.0" text="Phone : 02074659027" />
+      <Label layoutX="133.0" layoutY="449.0" text="Address : St John's Wood Rd, London NW8 8QN" />
+      <Label layoutX="133.0" layoutY="470.0" text="Phone : 02076168500" />
+      <Label layoutX="133.0" layoutY="568.0" text="Address : Kennington, London SE11 5SS" />
+      <Label layoutX="133.0" layoutY="589.0" text="Phone : 08443751845" />
+      <Label layoutX="133.0" layoutY="682.0" text="Address : 33-45 E End Rd, London N3 2TA" />
+      <Label layoutX="133.0" layoutY="706.0" text="Phone : 02083461822" />
    </children>
 </AnchorPane>
