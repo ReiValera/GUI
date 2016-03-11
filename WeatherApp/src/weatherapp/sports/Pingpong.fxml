@@ -63,5 +63,40 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="18.0" layoutY="192.0">
+         <image>
+            <Image url="@../../resources/tabletennis.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/tabletennis2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/tabletennis3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/tabletennis4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/tabletennis5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="132.0" layoutY="211.0" text="Address : 187 Freston Rd, London W10 6TH" />
+      <Label layoutX="132.0" layoutY="232.0" text="Phone : 02089692528" />
+      <Label layoutX="132.0" layoutY="334.0" text="Address : 2 Stockholm Rd, London SE16 3LP" />
+      <Label layoutX="132.0" layoutY="355.0" text="Phone : 07958713002" />
+      <Label layoutX="132.0" layoutY="452.0" text="Address : Soho Square, Soho, London W1D 4NR" />
+      <Label layoutX="132.0" layoutY="475.0" text="Phone : 02074895737" />
+      <Label layoutX="132.0" layoutY="566.0" text="Address : 180 Earls Ct Rd, London SW5 9QG" />
+      <Label layoutX="132.0" layoutY="589.0" text="Phone : 02073705358" />
+      <Label layoutX="132.0" layoutY="683.0" text="Address : 121 Holborn, London EC1N 2TD" />
+      <Label layoutX="132.0" layoutY="706.0" text="Phone : 02036576525" />
    </children>
 </AnchorPane>
