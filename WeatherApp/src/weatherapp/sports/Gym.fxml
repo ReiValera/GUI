@@ -83,16 +83,16 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="41.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
-      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02077395195" />
-      <Label layoutX="143.0" layoutY="224.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
-      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02072477538" />
-      <Label layoutX="143.0" layoutY="341.0" text="Address : 55 Durward St, London E1 5BA" />
-      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072491733" />
-      <Label layoutX="143.0" layoutY="461.0" text="Address : 59 Columbia Rd, London E2 7RG" />
-      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078828040" />
-      <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
-      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
-      <Label layoutX="143.0" layoutY="576.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
+      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02089817964" />
+      <Label layoutX="143.0" layoutY="224.0" text="Address : Bow Wharf, 221 Grove Rd, London E3 5SN" />
+      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02072659693" />
+      <Label layoutX="143.0" layoutY="341.0" text="Address : 186 Bancroft Rd, London E1 4ET" />
+      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02078828040" />
+      <Label layoutX="143.0" layoutY="461.0" text="Address : 15 Godward Square, London E1 4FZ" />
+      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02076131631" />
+      <Label layoutX="143.0" layoutY="697.0" text="Address : 461 Bethnal Green Rd, London E2 9QH" />
+      <Label layoutX="143.0" layoutY="599.0" text="Phone : 02072477538" />
+      <Label layoutX="143.0" layoutY="576.0" text="Address : 55 Durward St, London E1 5BA" />
       <ImageView layoutX="19.0" layoutY="667.0">
          <image>
             <Image url="@../../resources/gym5.png" />
