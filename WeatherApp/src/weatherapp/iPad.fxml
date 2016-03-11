@@ -48,9 +48,9 @@
             <Image url="@../resources/user.png" />
          </image>
       </ImageView>
-      <Text fill="#6f6f6f" layoutX="69.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing..                                              Don't feel like looking?" wrappingWidth="766.9022827148438">
+      <Text fill="#6f6f6f" layoutX="69.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, User! What do you feel like doing..                                                                                 Don't feel like looking?" wrappingWidth="766.9022827148438">
          <font>
-            <Font size="18.0" />
+            <Font name="Arial Narrow" size="18.0" />
          </font>
       </Text>
       <ImageView fx:id="icon" fitHeight="158.0" fitWidth="158.0" layoutX="436.0">
