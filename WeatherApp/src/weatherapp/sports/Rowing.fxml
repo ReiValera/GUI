@@ -32,7 +32,7 @@
          </font>
       </Text>
       <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
-      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="865.0" prefHeight="92.0" prefWidth="82.0" text="8">
+      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="810.0" prefHeight="114.0" prefWidth="137.0" text="8">
          <font>
             <Font name="Calibri Light" size="100.0" />
          </font>
@@ -81,16 +81,6 @@
       <ImageView layoutX="19.0" layoutY="310.0">
          <image>
             <Image url="@../../resources/rowing2.png" />
-         </image>
-      </ImageView>
-      <ImageView>
-         <image>
-            <Image url="@../../resources/rowing3.png" />
-         </image>
-      </ImageView>
-      <ImageView>
-         <image>
-            <Image url="@../../resources/rowing3.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="550.0">

@@ -32,7 +32,7 @@
          </font>
       </Text>
       <Button fx:id="goiphone" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#goiphone" text="Iphone View" />
-      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="866.0" prefHeight="92.0" prefWidth="82.0" text="8">
+      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="820.0" prefHeight="114.0" prefWidth="128.0" text="8">
          <font>
             <Font name="Calibri Light" size="100.0" />
          </font>
