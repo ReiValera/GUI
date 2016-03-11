@@ -39,7 +39,7 @@ public class VolleyballiphoneController implements Initializable {
     @FXML
     private Label condition;
     @FXML
-    private Button goiphone;
+    private Button goipad;
         @FXML
     ImageView icon;
         
@@ -126,8 +126,8 @@ public class VolleyballiphoneController implements Initializable {
     {
         try 
         {
-            Stage stage = (Stage) back.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("Volleyball.fxml"));
+            Stage stage = (Stage) goipad.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("Voleyball.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } 

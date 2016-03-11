@@ -38,7 +38,7 @@ public class TennisiphoneController implements Initializable {
     @FXML
     private Label condition;
     @FXML
-    private Button goiphone;
+    private Button goipad;
         @FXML
     ImageView icon;
         
@@ -121,11 +121,12 @@ public class TennisiphoneController implements Initializable {
                 break;
         }
     }
-     public void goiphone() throws IOException 
+     public void goipad() throws IOException 
     {
         try 
         {
-            Stage stage = (Stage) goiphone.getScene().getWindow();
+            Stage stage = (Stage) goipad.getScene().getWindow();
+            System.out.println("ok");
             Parent root = FXMLLoader.load(getClass().getResource("Tennis.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);

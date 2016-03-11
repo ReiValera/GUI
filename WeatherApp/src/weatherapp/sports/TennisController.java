@@ -130,7 +130,7 @@ public class TennisController implements Initializable {
         try 
         {
             Stage stage = (Stage) goiphone.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("TennisiphoneController.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Tennisiphone.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } 

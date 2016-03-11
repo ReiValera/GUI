@@ -62,7 +62,7 @@
             <Image url="@../../resources/rugby1.png" />
          </image>
       </ImageView>
-      <Button fx:id="back" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
+      <Button fx:id="goback" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
       <Label fx:id="condition" layoutX="147.0" layoutY="75.0" prefHeight="43.0" prefWidth="163.0" text="Condition" textFill="WHITE">
          <font>
             <Font name="Arial Narrow" size="15.0" />

@@ -129,7 +129,7 @@ public class SwimmingController implements Initializable {
         try 
         {
             Stage stage = (Stage) goiphone.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("SwimmingiphoneController.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Swimmingiphone.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } 

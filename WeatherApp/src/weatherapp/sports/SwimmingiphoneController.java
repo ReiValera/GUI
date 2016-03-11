@@ -40,7 +40,7 @@ public class SwimmingiphoneController implements Initializable {
     @FXML
     private Label condition;
     @FXML
-    private Button goiphone;
+    private Button goipad;
         @FXML
     ImageView icon;
         
@@ -127,7 +127,7 @@ public class SwimmingiphoneController implements Initializable {
     {
         try 
         {
-            Stage stage = (Stage) goiphone.getScene().getWindow();
+            Stage stage = (Stage) goipad.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("Swimming.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);

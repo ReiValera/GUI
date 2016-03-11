@@ -129,7 +129,7 @@ public class FootballController implements Initializable {
         try 
         {
             Stage stage = (Stage) goiphone.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("FootballiphoneController.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Footballiphone.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } 
