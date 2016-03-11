@@ -141,7 +141,7 @@ public class IphoneController implements Initializable {
     public void goipad() throws IOException {
         try {
             Stage stage = (Stage) goipad.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("Ipad.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("iPad.fxml"));
             Scene scene = new Scene(root, 1024, 768);
             stage.setScene(scene);
         } catch (IOException ex) {
