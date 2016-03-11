@@ -4,7 +4,7 @@ public class TestWeather
 
 	public static void main(String[] args)
 	{
-		WeatherAPI weather = new WeatherAPI("44418");
+		WeatherAPI weather = new WeatherAPI("44418"); //44418 is WOEID for london
 		System.out.println(weather.theWeatherRSS);
                 System.out.println(weather.Location);
                 System.out.println(weather.CurrentTemp);
