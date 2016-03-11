@@ -131,7 +131,7 @@ public class BasketballController implements Initializable {
         try 
         {
             Stage stage = (Stage) goiphone.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("../iPhone.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("BasketballiphoneController.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } 

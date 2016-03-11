@@ -88,5 +88,6 @@
             <Image url="@../../resources/images-animated-gif.blogspot.com%20(3).gif" />
          </image>
       </ImageView>
+      <Button fx:id="goipad" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#goipad" text="Ipad View" />
    </children>
 </AnchorPane>
