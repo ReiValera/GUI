@@ -63,16 +63,16 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
-      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02077395195" />
-      <Label layoutX="143.0" layoutY="224.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
-      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02072477538" />
-      <Label layoutX="143.0" layoutY="341.0" text="Address : 55 Durward St, London E1 5BA" />
-      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072491733" />
-      <Label layoutX="143.0" layoutY="461.0" text="Address : 59 Columbia Rd, London E2 7RG" />
-      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078828040" />
-      <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
-      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
-      <Label layoutX="143.0" layoutY="576.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
+      <Label layoutX="143.0" layoutY="242.0" text="Phone : 07951 414409" />
+      <Label layoutX="143.0" layoutY="224.0" text="Address : Central Foundation Boys School, Cowper St, London EC2A 4SH" />
+      <Label layoutX="143.0" layoutY="360.0" text="Phone : 07766 623507" />
+      <Label layoutX="143.0" layoutY="341.0" text="Address : Ground Floor Gym, Greycoat Hospital School, St Michael's Building, 98 Regency St, Westminster, London SW1P 4GH" />
+      <Label layoutX="143.0" layoutY="480.0" text="Phone : 07293001238" />
+      <Label layoutX="143.0" layoutY="461.0" text="Address : 2 Malet St, London WC1E" />
+      <Label layoutX="143.0" layoutY="716.0" text="Phone : 07939 145161" />
+      <Label layoutX="143.0" layoutY="697.0" text="Address : 106 Fenchurch St, London EC3M 5JE" />
+      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927892012" />
+      <Label layoutX="143.0" layoutY="576.0" text="Address :  Acland Burghley School, Burghley Rd, London NW5 1UJ" />
       <ImageView layoutX="18.0" layoutY="193.0">
          <image>
             <Image url="@../../resources/fencing1.png" />
@@ -96,6 +96,31 @@
       <ImageView layoutX="19.0" layoutY="666.0">
          <image>
             <Image url="@../../resources/fencing5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity5" fitHeight="50.0" fitWidth="407.0" layoutX="616.0" layoutY="717.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity2" fitHeight="50.0" fitWidth="407.0" layoutX="616.0" layoutY="367.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity3" fitHeight="50.0" fitWidth="407.0" layoutX="616.0" layoutY="486.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity4" fitHeight="50.0" fitWidth="407.0" layoutX="615.0" layoutY="605.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity1" fitHeight="50.0" fitWidth="407.0" layoutX="616.0" layoutY="249.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
          </image>
       </ImageView>
    </children>
