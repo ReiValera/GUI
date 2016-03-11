@@ -63,5 +63,40 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="40.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="19.0" layoutY="191.0">
+         <image>
+            <Image url="@../../resources/ski1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/ski2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/ski3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/ski4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/ski5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="210.0" text="Address : 9 Reece Mews, London SW7 3HE" />
+      <Label layoutX="133.0" layoutY="231.0" text="Phone : 02075842841" />
+      <Label layoutX="133.0" layoutY="331.0" text="Address : The Coda Centre, 189 Munster Rd, London SW6 6AW" />
+      <Label layoutX="133.0" layoutY="350.0" text="Phone : 02030800200" />
+      <Label layoutX="133.0" layoutY="450.0" text="Address : 80 Silverthorne Rd, London SW8 3HE" />
+      <Label layoutX="133.0" layoutY="472.0" text="Phone : 02074717700" />
+      <Label layoutX="133.0" layoutY="568.0" text="Address : Headley Rd E, Woodley RG5 4SW" />
+      <Label layoutX="133.0" layoutY="589.0" text="Phone : 08456003599" />
+      <Label layoutX="133.0" layoutY="689.0" text="Address : John Nike Way, Bracknell, West Berkshire RG12 8TN" />
+      <Label layoutX="133.0" layoutY="710.0" text="Phone : 01344789000" />
    </children>
 </AnchorPane>
