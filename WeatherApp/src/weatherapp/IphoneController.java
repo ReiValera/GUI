@@ -68,12 +68,12 @@ public class IphoneController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         WeatherAPI weather = new WeatherAPI("44418");
-        temp.setText(weather.CurrentTemp);
-        location.setText(weather.Location);
-        condition.setText(weather.Condition);
-        date.setText(weather.date);
+        temp.setText(weather.CurrentTemp); // gets the current temperature from the api
+        location.setText(weather.Location); // gets the location from the api
+        condition.setText(weather.Condition); // gets the condition from the api
+        date.setText(weather.date); // gets the date from the api
 
-        switch(weather.code)
+        switch(weather.code)// .code gets the code for the condition from the api
         {
             case "1":
             case "2":
