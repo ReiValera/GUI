@@ -63,7 +63,7 @@
             <Image url="@../resources/images-animated-gif.blogspot.com%20(3).gif" />
          </image>
       </ImageView>
-      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="802.0" layoutY="9.0" prefHeight="158.0" prefWidth="114.0" text="8">
+      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="768.0" layoutY="9.0" prefHeight="158.0" prefWidth="148.0" text="8">
          <font>
             <Font name="Calibri Light" size="120.0" />
          </font></Label>
