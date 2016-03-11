@@ -63,16 +63,16 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
-      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02077395195" />
-      <Label layoutX="143.0" layoutY="224.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
-      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02072477538" />
-      <Label layoutX="143.0" layoutY="341.0" text="Address : 55 Durward St, London E1 5BA" />
-      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072491733" />
-      <Label layoutX="143.0" layoutY="461.0" text="Address : 59 Columbia Rd, London E2 7RG" />
-      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078828040" />
-      <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
-      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
-      <Label layoutX="143.0" layoutY="576.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
+      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02077396664" />
+      <Label layoutX="143.0" layoutY="224.0" text="Address : 507 Hackney Rd, London E2 9ED" />
+      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02077783201" />
+      <Label layoutX="143.0" layoutY="341.0" text="Address : 85 Brewer St, Soho, London W1F 9ZN" />
+      <Label layoutX="143.0" layoutY="480.0" text="Phone : 07283922189" />
+      <Label layoutX="143.0" layoutY="461.0" text="Address : 63 Shoe Ln, London EC4A 3BE" />
+      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078829903" />
+      <Label layoutX="143.0" layoutY="697.0" text="Address : Burdett Rd, London E3 4JT" />
+      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07923029112" />
+      <Label layoutX="143.0" layoutY="576.0" text="Address :  458 Hoe St, Walthamstow, London E17 9AH" />
       <ImageView layoutX="18.0" layoutY="193.0">
          <image>
             <Image url="@../../resources/cycle1.png" />
