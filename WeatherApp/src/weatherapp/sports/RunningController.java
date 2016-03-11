@@ -127,7 +127,7 @@ public class RunningController implements Initializable {
         try 
         {
             Stage stage = (Stage) goiphone.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("../iPhone.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("RunningiphoneController.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
         } 
