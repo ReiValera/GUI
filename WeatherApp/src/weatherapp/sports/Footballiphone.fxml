@@ -134,5 +134,45 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="8.0" layoutY="449.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="26.0" prefWidth="41.0" text="Go Back" />
+      <Label layoutX="79.0" layoutY="181.0" text="Address : 326 Kensal Rd, London W10 5BZ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="193.0" text="Phone : 020 8960 1111">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="249.0" text="Address : Westfield Stratford City, London E20 1EN">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="261.0" text="Phone : 020 8702 2590">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="317.0" text="Address : 31 Vernon St, London W14 0RN">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="329.0" text="Phone : 02072783982">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="384.0" text="Address :  69 Mile End Rd, London E1 4TT">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="396.0" text="Phone : 07927266247">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
