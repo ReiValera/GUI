@@ -62,7 +62,6 @@
             <Image url="@../../resources/volleyball4.png" />
          </image>
       </ImageView>
-      <Button fx:id="back" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
       <Label fx:id="condition" layoutX="146.0" layoutY="75.0" prefHeight="43.0" prefWidth="163.0" text="Condition">
          <font>
             <Font name="Arial Narrow" size="15.0" />
@@ -129,5 +128,11 @@
             <Image url="@../../resources/volleyball4.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="24.0" layoutY="448.0">
+         <image>
+            <Image url="@../../resources/Button-back-512.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="17.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="26.0" prefWidth="41.0" text="Go Back" />
    </children>
 </AnchorPane>
