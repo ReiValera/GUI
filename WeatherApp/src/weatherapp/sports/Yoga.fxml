@@ -98,7 +98,7 @@
       <Label layoutX="133.0" layoutY="350.0" text="Phone : 02072477538" />
       <Label layoutX="133.0" layoutY="214.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
       <Label layoutX="133.0" layoutY="232.0" text="Phone : 02077395195" />
-      <ImageView fx:id="activity4" fitHeight="50.0" fitWidth="407.0" layoutX="604.0" layoutY="717.0">
+      <ImageView fx:id="activity5" fitHeight="50.0" fitWidth="407.0" layoutX="604.0" layoutY="717.0">
          <image>
             <Image url="@../../resources/ratingbar1.png" />
          </image>
