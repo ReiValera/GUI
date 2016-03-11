@@ -53,7 +53,7 @@ public class BoxingController implements Initializable {
     @FXML
     ImageView activity5;
         
-        
+    //calling images from the resources file
     Image mostlyCloudy = new Image("resources/mostlycloudy.gif");
     Image mostlySunny = new Image("resources/mostlysunny.gif");
     Image rain = new Image("resources/rainy.gif");
@@ -66,13 +66,14 @@ public class BoxingController implements Initializable {
     Image rating3 = new Image("resources/ratingbar3.png");
     Image rating4 = new Image("resources/ratingbar4.png");
     @Override
-    public void initialize(URL url, ResourceBundle rb)
+    
+    public void initialize(URL url, ResourceBundle rb) 
     {
-        WeatherAPI weather = new WeatherAPI("44418");
-        temp.setText(weather.CurrentTemp);
-        location.setText(weather.Location);
-        condition.setText(weather.Condition);
-        switch(weather.code)
+        WeatherAPI weather = new WeatherAPI("44418");   //using london as the city
+        temp.setText(weather.CurrentTemp);  //current temperature
+        location.setText(weather.Location); //current location
+        condition.setText(weather.Condition);   //current condition
+        switch(weather.code) //using api
         {
             case "1":
             case "2":
