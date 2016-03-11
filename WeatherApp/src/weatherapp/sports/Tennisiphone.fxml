@@ -134,5 +134,45 @@
          </image>
       </ImageView>
       <Button fx:id="back" layoutX="16.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Go Back" />
+      <Label layoutX="79.0" layoutY="181.0" text="Address : Malcolm Pl, London E2 0EU">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="193.0" text="Phone : 02076243551">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="249.0" text="Address : Richmond Rd, London E8 3QN">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="261.0" text="Phone : 07283771829">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="316.0" text="Address : S Carriage Dr, London W2 2UH">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="328.0" text="Phone : 02083728891">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="385.0" text="Address :  London SW4">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="397.0" text="Phone : 07792 600003">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
