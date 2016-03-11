@@ -63,16 +63,16 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
-      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02077395195" />
-      <Label layoutX="143.0" layoutY="224.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
-      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02072477538" />
-      <Label layoutX="143.0" layoutY="341.0" text="Address : 55 Durward St, London E1 5BA" />
-      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072491733" />
-      <Label layoutX="143.0" layoutY="461.0" text="Address : 59 Columbia Rd, London E2 7RG" />
-      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078828040" />
-      <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
-      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
-      <Label layoutX="143.0" layoutY="576.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
+      <Label layoutX="143.0" layoutY="242.0" text="Phone : 02074937291" />
+      <Label layoutX="143.0" layoutY="224.0" text="Address : Bromley by Bow Centre, St Leonards Street, London, Bow, Greater London E3 3BT" />
+      <Label layoutX="143.0" layoutY="360.0" text="Phone : 02078398291" />
+      <Label layoutX="143.0" layoutY="341.0" text="Address : Wanstead Leisure Centre, Redbridge Lane West, Wanstead, London E11 2JZ" />
+      <Label layoutX="143.0" layoutY="480.0" text="Phone : 02077382779" />
+      <Label layoutX="143.0" layoutY="461.0" text="Address : 406 Mentmore Terrace, London E8 3PH" />
+      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02072617288" />
+      <Label layoutX="143.0" layoutY="697.0" text="Address : 338 London Rd, Mitcham, Greater London CR4 3ND" />
+      <Label layoutX="143.0" layoutY="599.0" text="Phone : 07829881924" />
+      <Label layoutX="143.0" layoutY="576.0" text="Address :  Lever Street off, Bath St, London EC1V 8BT" />
       <ImageView layoutX="19.0" layoutY="192.0">
          <image>
             <Image url="@../../resources/karate1.png" />
