@@ -43,11 +43,6 @@
             <DropShadow color="#9a9a9a" offsetX="5.0" offsetY="5.0" />
          </effect>
       </Label>
-      <ImageView layoutX="14.0" layoutY="38.0" opacity="0.71">
-         <image>
-            <Image url="@../resources/home.png" />
-         </image>
-      </ImageView>
       <ImageView layoutX="22.0" layoutY="181.0" opacity="0.66">
          <image>
             <Image url="@../resources/user.png" />
