@@ -64,5 +64,40 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="48.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="19.0" layoutY="192.0">
+         <image>
+            <Image url="@../../resources/yoga1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/yoga2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/yoga3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/yoga4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/yoga5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="566.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
+      <Label layoutX="133.0" layoutY="589.0" text="Phone : 07927266247" />
+      <Label layoutX="133.0" layoutY="687.0" text="Address : 15 Godward Square, London E1 4FZ" />
+      <Label layoutX="133.0" layoutY="706.0" text="Phone : 02078828040" />
+      <Label layoutX="133.0" layoutY="451.0" text="Address : 59 Columbia Rd, London E2 7RG" />
+      <Label layoutX="133.0" layoutY="470.0" text="Phone : 02072491733" />
+      <Label layoutX="133.0" layoutY="331.0" text="Address : 55 Durward St, London E1 5BA" />
+      <Label layoutX="133.0" layoutY="350.0" text="Phone : 02072477538" />
+      <Label layoutX="133.0" layoutY="214.0" text="Address : 449-453 Bethnal Green Rd, London E2 9QH" />
+      <Label layoutX="133.0" layoutY="232.0" text="Phone : 02077395195" />
    </children>
 </AnchorPane>
