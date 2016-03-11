@@ -66,27 +66,27 @@
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
       <ImageView layoutX="19.0" layoutY="192.0">
          <image>
-            <Image url="@../../../../../../Desktop/volleyball1.png" />
+            <Image url="@../../resources/volleyball1.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="310.0">
          <image>
-            <Image url="@../../../../../../Desktop/volleyball2.png" />
+            <Image url="@../../resources/volleyball2.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="430.0">
          <image>
-            <Image url="@../../../../../../Desktop/volleyball3.png" />
+            <Image url="@../../resources/volleyball3.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="549.0">
          <image>
-            <Image url="@../../../../../../Desktop/volleyball4.png" />
+            <Image url="@../../resources/volleyball4.png" />
          </image>
       </ImageView>
       <ImageView layoutX="19.0" layoutY="666.0">
          <image>
-            <Image url="@../../../../../../Desktop/volleyball5.png" />
+            <Image url="@../../resources/volleyball5.png" />
          </image>
       </ImageView>
    </children>
