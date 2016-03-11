@@ -64,5 +64,40 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="19.0" layoutY="192.0">
+         <image>
+            <Image url="@../../resources/volleyball1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/volleyball2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/volleyball3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/volleyball4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/volleyball5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="134.0" layoutY="217.0" text="Address : 15 Godward Square, London E1 4FZ" />
+      <Label layoutX="134.0" layoutY="241.0" text="Phone : 02078828040" />
+      <Label layoutX="134.0" layoutY="332.0" text="Address : 15 Brick Ln, London E1 6PU" />
+      <Label layoutX="134.0" layoutY="359.0" text="Phone : 02049378290" />
+      <Label layoutX="134.0" layoutY="452.0" text="Address : Globe Academy, Harper Road, London SE1 6AG" />
+      <Label layoutX="134.0" layoutY="479.0" text="Phone : 02079932401" />
+      <Label layoutX="134.0" layoutY="570.0" text="Address : Gosset St, London E2 6NW" />
+      <Label layoutX="134.0" layoutY="598.0" text="Phone : 07837820975" />
+      <Label layoutX="134.0" layoutY="689.0" text="Address : University Of East London, 4-6 University Way, London E16 2RD" />
+      <Label layoutX="134.0" layoutY="714.0" text="Phone : 02082236888" />
    </children>
 </AnchorPane>

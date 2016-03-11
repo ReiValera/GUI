@@ -78,8 +78,6 @@ public class VoleyballController implements Initializable {
             case "17":
             case "18":
             case "19":
-            case "20":
-            case "21":
             case "22":
             case "23":
             case "35":
@@ -107,6 +105,8 @@ public class VoleyballController implements Initializable {
             case "33":
                 icon.setImage(night);
                 break;
+            case "20":
+            case "21":
             case "26":
                 icon.setImage(cloudy);
                 break;
