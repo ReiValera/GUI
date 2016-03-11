@@ -134,5 +134,45 @@
          </image>
       </ImageView>
       <Button fx:id="back" layoutX="17.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="26.0" prefWidth="41.0" text="Go Back" />
+      <Label layoutX="78.0" layoutY="396.0" text="Phone : 07837820975">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="384.0" text="Address : Gosset St, London E2 6NW">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="328.0" text="Phone : 02079932401">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="316.0" prefHeight="12.0" prefWidth="228.0" text="Address : Globe Academy, Harper Road, London SE1 6AG">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="261.0" text="Phone : 02049378290">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="249.0" text="Address : 15 Brick Ln, London E1 6PU">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="193.0" text="Phone : 02078828040">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="181.0" text="Address : 15 Godward Square, London E1 4FZ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
