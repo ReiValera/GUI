@@ -63,21 +63,6 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
-      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="165.0" layoutY="-9.0" prefHeight="92.0" prefWidth="82.0" text="8">
-         <font>
-            <Font name="Calibri Light" size="75.0" />
-         </font>
-      </Label>
-      <Label layoutX="245.0" layoutY="1.0" prefHeight="37.0" prefWidth="44.0" text="°C">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </Label>
-      <Label fx:id="location" layoutX="249.0" layoutY="39.0" prefHeight="24.0" prefWidth="70.0" text="Location">
-         <font>
-            <Font name="Arial Nova" size="15.0" />
-         </font>
-      </Label>
       <Label fx:id="condition" layoutX="147.0" layoutY="75.0" prefHeight="43.0" prefWidth="163.0" text="Condition" textFill="WHITE">
          <font>
             <Font name="Arial Narrow" size="15.0" />
@@ -89,5 +74,20 @@
          </image>
       </ImageView>
       <Button fx:id="goipad" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#goipad" text="Ipad View" />
+      <Label fx:id="location" layoutX="250.0" layoutY="41.0" prefHeight="24.0" prefWidth="70.0" text="Location">
+         <font>
+            <Font name="Arial Nova" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="3.0" prefHeight="37.0" prefWidth="44.0" text="°C">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="165.0" layoutY="-5.0" prefHeight="92.0" prefWidth="82.0" text="8">
+         <font>
+            <Font name="Calibri Light" size="60.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

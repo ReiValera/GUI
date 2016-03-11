@@ -73,7 +73,7 @@
             <Font size="19.0" />
          </font>
       </Label>
-      <Label fx:id="location" layoutX="249.0" layoutY="39.0" prefHeight="24.0" prefWidth="70.0" text="Location">
+      <Label fx:id="location" layoutX="250.0" layoutY="39.0" prefHeight="24.0" prefWidth="70.0" text="Location">
          <font>
             <Font name="Arial Nova" size="15.0" />
          </font>
