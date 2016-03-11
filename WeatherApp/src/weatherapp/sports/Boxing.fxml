@@ -85,5 +85,19 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="34.0" layoutY="44.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/boxing4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/boxing5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="687.0" text="Address: 186 Bancroft Rd, London E1 4ET" />
+      <Label layoutX="133.0" layoutY="706.0" text="Phone: 020 7265 9693" />
+      <Label layoutX="133.0" layoutY="573.0" text="Address: 20 Hazellville Rd, London N19 3LP" />
+      <Label layoutX="133.0" layoutY="597.0" text="Phone: 07920 280230" />
    </children>
 </AnchorPane>
