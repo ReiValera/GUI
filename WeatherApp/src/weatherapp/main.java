@@ -19,9 +19,9 @@ public class main extends Application {
     @Override
     public void start(Stage stage) {
         stage = MainStage.getStage();
-        IpadScene scene = new IpadScene();
+        IpadScene scene = new IpadScene(); //create a screen
         
-        MainStage.loadScene(scene.getScene(), "WeatherAct");
+        MainStage.loadScene(scene.getScene(), "WeatherAct"); 
         stage.show();
     }
 }

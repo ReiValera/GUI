@@ -70,7 +70,7 @@ public class BaseballController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb)
     {
-        WeatherAPI weather = new WeatherAPI("44418");
+        WeatherAPI weather = new WeatherAPI("44418"); //location is london
         temp.setText(weather.CurrentTemp);
         location.setText(weather.Location);
         condition.setText(weather.Condition);
@@ -240,7 +240,7 @@ switch(weather.code)
 }
 //</editor-fold>
     }
-     public void goiphone() throws IOException 
+     public void goiphone() throws IOException  // goes to the iphone scene
     {
         try 
         {
@@ -255,7 +255,7 @@ switch(weather.code)
         }
     }
 
-    public void goback() throws IOException {
+    public void goback() throws IOException { //press the button and it goes back to the main screen
         try {
             Stage stage = (Stage) goback.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("../iPad.fxml"));

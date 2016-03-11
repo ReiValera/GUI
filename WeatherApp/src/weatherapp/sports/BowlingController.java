@@ -67,7 +67,7 @@ public class BowlingController implements Initializable {
     Image rating4 = new Image("resources/ratingbar4.png");
     
     @Override
-    public void initialize(URL url, ResourceBundle rb)
+    public void initialize(URL url, ResourceBundle rb) //use the api to get the temperature, location and condition
     {
         WeatherAPI weather = new WeatherAPI("44418");
         temp.setText(weather.CurrentTemp);
@@ -238,7 +238,7 @@ public class BowlingController implements Initializable {
         }
 //</editor-fold>
     }
-     public void goiphone() throws IOException 
+     public void goiphone() throws IOException //go to the iphone scene
     {
         try 
         {
@@ -253,7 +253,7 @@ public class BowlingController implements Initializable {
         }
     }
 
-    public void goback() throws IOException {
+    public void goback() throws IOException { //go back to the main screen
         try {
             Stage stage = (Stage) goback.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("../iPad.fxml"));

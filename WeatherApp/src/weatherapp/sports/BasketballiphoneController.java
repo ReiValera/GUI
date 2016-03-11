@@ -227,7 +227,7 @@ public class BasketballiphoneController implements Initializable {
         }
 //</editor-fold>
     }
-     public void goipad() throws IOException 
+     public void goipad() throws IOException //go to the ipad scene
     {
         try 
         {
@@ -242,7 +242,7 @@ public class BasketballiphoneController implements Initializable {
         }
     }
 
-    public void goback() throws IOException {
+    public void goback() throws IOException { // go back to the main screen (iphone)
         try {
             Stage stage = (Stage) back.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("../iPhone.fxml"));
