@@ -74,8 +74,8 @@
       <Label layoutX="143.0" layoutY="341.0" text="Address : Westfield Stratford City, London E20 1EN" />
       <Label layoutX="143.0" layoutY="480.0" text="Phone : 02072783982" />
       <Label layoutX="143.0" layoutY="461.0" text="Address : 31 Vernon St, London W14 0RN" />
-      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02078828040" />
-      <Label layoutX="143.0" layoutY="697.0" text="Address : 15 Godward Square, London E1 4FZ" />
+      <Label layoutX="143.0" layoutY="716.0" text="Phone : 02077829913" />
+      <Label layoutX="143.0" layoutY="697.0" text="Address : 31 Vernon St, London W14 0RN" />
       <Label layoutX="143.0" layoutY="599.0" text="Phone : 07927266247" />
       <Label layoutX="143.0" layoutY="576.0" text="Address :  Central Working, 69 Mile End Rd, London E1 4TT" />
       <ImageView layoutX="19.0" layoutY="193.0">
@@ -116,6 +116,11 @@
       <ImageView fx:id="activity1" fitHeight="50.0" fitWidth="407.0" layoutX="616.0" layoutY="248.0">
          <image>
             <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/football5.png" />
          </image>
       </ImageView>
    </children>
