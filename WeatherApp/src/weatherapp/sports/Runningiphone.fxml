@@ -44,25 +44,24 @@
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="181.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running1.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="249.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running2.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="317.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running3.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="384.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running4.png" />
          </image>
       </ImageView>
-      <Button fx:id="goback" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
       <Label fx:id="condition" layoutX="147.0" layoutY="75.0" prefHeight="43.0" prefWidth="163.0" text="Condition" textFill="WHITE">
          <font>
             <Font name="Arial Narrow" size="15.0" />
@@ -129,5 +128,11 @@
             <Image url="@../../resources/running4.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="14.0" layoutY="448.0">
+         <image>
+            <Image url="@../../resources/Button-back-512.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="goback" layoutX="14.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="26.0" prefWidth="28.0" text="Go Back" />
    </children>
 </AnchorPane>

@@ -44,25 +44,30 @@
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="181.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/basketball1.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="249.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/basketball2.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="316.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/basketball3.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="385.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/basketball4.png" />
          </image>
       </ImageView>
-      <Button fx:id="back" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
+      <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="15.0" layoutY="449.0">
+         <image>
+            <Image url="@../../resources/Button-back-512.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="8.0" layoutY="449.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="26.0" prefWidth="44.0" text="Go Back" />
       <Label fx:id="temp" alignment="CENTER_RIGHT" layoutX="165.0" layoutY="-7.0" prefHeight="92.0" prefWidth="82.0" text="8">
          <font>
             <Font name="Calibri Light" size="60.0" />
