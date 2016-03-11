@@ -53,6 +53,7 @@ public class BowlingController implements Initializable {
     @FXML
     ImageView activity5;
     
+    //calling images from the resources file
     
     Image mostlyCloudy = new Image("resources/mostlycloudy.gif");
     Image mostlySunny = new Image("resources/mostlysunny.gif");
