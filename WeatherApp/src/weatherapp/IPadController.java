@@ -84,6 +84,8 @@ public class IPadController implements Initializable {
     private Label condition;
      @FXML
     private Label date;
+      @FXML
+    private Label error;
     @FXML
     ImageView icon;
     @FXML
@@ -180,82 +182,87 @@ public class IPadController implements Initializable {
     {
         gorugby();
     }
-    else if(input.equals("Basketball"))
+    else if(input.equalsIgnoreCase("Basketball"))
     {
         gobasketball();
     }
-       else if(input.equals("Basketball"))
+       else if(input.equalsIgnoreCase("Basketball"))
     {
         gobasketball();
     }
-       else if(input.equals("Running"))
+       else if(input.equalsIgnoreCase("Running"))
     {
         gorunning();
     }
-       else if(input.equals("Rowing"))
+       else if(input.equalsIgnoreCase("Rowing"))
     {
         gorowing();
     }
-       else if(input.equals("Swimming"))
+       else if(input.equalsIgnoreCase("Swimming"))
     {
         goswimming();
     }
-       else if(input.equals("Gym"))
+       else if(input.equalsIgnoreCase("Gym"))
     {
         gogym();
     }
-       else if(input.equals("Bowling"))
+       else if(input.equalsIgnoreCase("Bowling"))
     {
         gobowling();
     }
-       else if(input.equals("Cycling"))
+       else if(input.equalsIgnoreCase("Cycling"))
     {
         gocycling();
     }
-       else if(input.equals("Football"))
+       else if(input.equalsIgnoreCase("Football"))
     {
         gofootball();
     }
-       else if(input.equals("Golf"))
+       else if(input.equalsIgnoreCase("Golf"))
     {
         gogolf();
     }
-       else if(input.equals("Hockey"))
+       else if(input.equalsIgnoreCase("Hockey"))
     {
         gohockey();
     }
-       else if(input.equals("Ping Pong"))
+       else if(input.equalsIgnoreCase("Ping Pong"))
     {
         gopingpong();
     }
-       else if(input.equals("Tennis"))
+       else if(input.equalsIgnoreCase("Tennis"))
     {
         gotennis();
     }
-       else if(input.equals("Voleyball"))
+       else if(input.equalsIgnoreCase("Voleyball"))
     {
         govoleyball();
     }
-       else if(input.equals("Yoga"))
+       else if(input.equalsIgnoreCase("Yoga"))
     {
         goyoga();
     }
-       else if(input.equals("Boxing"))
+       else if(input.equalsIgnoreCase("Boxing"))
     {
         goboxing();
     }
-       else if(input.equals("Karate"))
+       else if(input.equalsIgnoreCase("Karate"))
     {
         gokarate();
     }
-       else if(input.equals("Cricket"))
+       else if(input.equalsIgnoreCase("Cricket"))
     {
         gocricket();
     }
-       else if(input.equals("Baseball"))
+       else if(input.equalsIgnoreCase("Baseball"))
     {
         gobaseball();
-    }
+    } else
+            {
+               
+                error.setText("Sport not found!");
+               
+            }
     }
     public void goiphone() throws IOException 
     {
