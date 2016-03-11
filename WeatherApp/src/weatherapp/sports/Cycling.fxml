@@ -16,7 +16,7 @@
             <Image url="@../../resources/bg2.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="768.0" fitWidth="1024.0">
+      <ImageView fitHeight="768.0" fitWidth="1024.0" layoutX="-1.0">
          <image>
             <Image url="@../../resources/sportsbg.png" />
          </image>
@@ -96,6 +96,31 @@
       <ImageView layoutX="19.0" layoutY="666.0">
          <image>
             <Image url="@../../resources/cycle5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity1" fitHeight="50.0" fitWidth="407.0" layoutX="615.0" layoutY="247.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity4" fitHeight="50.0" fitWidth="407.0" layoutX="614.0" layoutY="603.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity3" fitHeight="50.0" fitWidth="407.0" layoutX="615.0" layoutY="484.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity2" fitHeight="50.0" fitWidth="407.0" layoutX="615.0" layoutY="365.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity5" fitHeight="50.0" fitWidth="407.0" layoutX="615.0" layoutY="715.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
          </image>
       </ImageView>
    </children>
