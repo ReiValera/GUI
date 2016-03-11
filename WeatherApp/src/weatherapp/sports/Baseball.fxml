@@ -63,5 +63,40 @@
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="26.0" layoutY="48.0" mnemonicParsing="false" onAction="#goback" opacity="0.0" prefHeight="50.0" prefWidth="60.0" text="Go Back" />
+      <ImageView layoutX="19.0" layoutY="192.0">
+         <image>
+            <Image url="@../../resources/baseball1.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="310.0">
+         <image>
+            <Image url="@../../resources/baseball2.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="430.0">
+         <image>
+            <Image url="@../../resources/baseball3.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="549.0">
+         <image>
+            <Image url="@../../resources/baseball4.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="19.0" layoutY="666.0">
+         <image>
+            <Image url="@../../resources/baseball5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="212.0" text="Address : Finsbury Park, Endymion Rd, London N4 1EQ" />
+      <Label layoutX="133.0" layoutY="236.0" text="Phone : 07496370945" />
+      <Label layoutX="133.0" layoutY="330.0" text="Address : Endymion Rd, London N4 1EE" />
+      <Label layoutX="133.0" layoutY="350.0" text="Phone : 07770381308" />
+      <Label layoutX="133.0" layoutY="458.0" text="Address : Townmead Leisure Park, Brooker Rd, Waltham Abbey EN9 1JH" />
+      <Label layoutX="133.0" layoutY="478.0" text="Phone : 07961346370" />
+      <Label layoutX="133.0" layoutY="562.0" text="Address : Dave Ward Field, Roundshaw Park, Croydon CR0 4RW" />
+      <Label layoutX="133.0" layoutY="584.0" text="Phone : 07492671890" />
+      <Label layoutX="133.0" layoutY="685.0" text="Address : Ariel House74a Charlotte StreetLondonW1T 4QJ" />
+      <Label layoutX="133.0" layoutY="706.0" text="Phone : 02036785679" />
    </children>
 </AnchorPane>
