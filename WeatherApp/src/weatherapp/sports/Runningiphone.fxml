@@ -99,22 +99,22 @@
             <Image url="@../../resources/running2.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="211.0">
+      <ImageView fx:id="activity1" fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="209.0">
          <image>
             <Image url="@../../resources/ratingbar1.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="278.0">
+      <ImageView fx:id="activity2" fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="278.0">
          <image>
             <Image url="@../../resources/ratingbar1.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="345.0">
+      <ImageView fx:id="activity3" fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="345.0">
          <image>
             <Image url="@../../resources/ratingbar1.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="412.0">
+      <ImageView fx:id="activity4" fitHeight="34.0" fitWidth="244.0" layoutX="76.0" layoutY="412.0">
          <image>
             <Image url="@../../resources/ratingbar1.png" />
          </image>

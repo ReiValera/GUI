@@ -184,7 +184,7 @@ public class BoxingController implements Initializable {
                 break;
             case "32":
             case "36":
-                activity1.setImage(rating2);
+                activity1.setImage(rating3);
                 activity2.setImage(rating4);
                 activity3.setImage(rating3);
                 activity4.setImage(rating3);

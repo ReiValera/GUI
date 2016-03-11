@@ -89,5 +89,45 @@
             <Font name="Calibri Light" size="60.0" />
          </font>
       </Label>
+      <ImageView fx:id="activity1" fitHeight="34.0" fitWidth="244.0" layoutX="75.0" layoutY="208.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity2" fitHeight="34.0" fitWidth="244.0" layoutX="75.0" layoutY="277.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity3" fitHeight="34.0" fitWidth="244.0" layoutX="75.0" layoutY="344.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="activity4" fitHeight="34.0" fitWidth="244.0" layoutX="75.0" layoutY="411.0">
+         <image>
+            <Image url="@../../resources/ratingbar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="181.0">
+         <image>
+            <Image url="@../../resources/volleyball1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="249.0">
+         <image>
+            <Image url="@../../resources/volleyball2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="316.0">
+         <image>
+            <Image url="@../../resources/volleyball3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="384.0">
+         <image>
+            <Image url="@../../resources/volleyball4.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

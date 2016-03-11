@@ -75,6 +75,7 @@ public class RugbyController implements Initializable {
         temp.setText(weather.CurrentTemp);
         location.setText(weather.Location);
         condition.setText(weather.Condition);
+        //<editor-fold defaultstate="collapsed" desc="weather icon">
         switch(weather.code)
         {
             case "1":
@@ -99,7 +100,7 @@ public class RugbyController implements Initializable {
             case "22":
             case "23":
             case "35":
-            case "37":    
+            case "37":
             case "38":
             case "39":
             case "40":
@@ -139,102 +140,105 @@ public class RugbyController implements Initializable {
                 icon.setImage(cloudy);
                 break;
         }
-        switch(weather.code)
-        {
-            case "1":
-            case "2":
-            case "3":
-            case "4":
-            case "5":
-            case "6":
-            case "7":
-            case "8":
-            case "9":
-            case "10":
-            case "11":
-            case "12":
-            case "13":
-            case "14":
-            case "15":
-            case "16":
-            case "17":
-            case "18":
-            case "19":
-            case "22":
-            case "23":
-            case "35":
-            case "37":    
-            case "38":
-            case "39":
-            case "40":
-            case "41":
-            case "42":
-            case "43":
-                activity1.setImage(rating2);
-                activity2.setImage(rating3);
-                activity3.setImage(rating2);
-                activity4.setImage(rating1);
-                activity5.setImage(rating2);
-                break;
-            case "30":
-            case "34":
-            case "44":
-                activity1.setImage(rating3);
-                activity2.setImage(rating3);
-                activity3.setImage(rating2);
-                activity4.setImage(rating3);
-                activity5.setImage(rating2);
-                break;
-            case "32":
-            case "36":
-                activity1.setImage(rating2);
-                activity2.setImage(rating4);
-                activity3.setImage(rating3);
-                activity4.setImage(rating3);
-                activity5.setImage(rating4);
-                break;
-            case "27":
-            case "29":
-            case "31":
-            case "33":
-                activity1.setImage(rating2);
-                activity2.setImage(rating2);
-                activity3.setImage(rating3);
-                activity4.setImage(rating2);
-                activity5.setImage(rating3);
-                break;
-            case "20":
-            case "21":
-            case "26":
-                activity1.setImage(rating1);
-                activity2.setImage(rating2);
-                activity3.setImage(rating1);
-                activity4.setImage(rating1);
-                activity5.setImage(rating2);
-                break;
-            case "28":
-                activity1.setImage(rating3);
-                activity2.setImage(rating3);
-                activity3.setImage(rating2);
-                activity4.setImage(rating2);
-                activity5.setImage(rating3);
-                break;
-            case "25":
-            case "24":
-                activity1.setImage(rating2);
-                activity2.setImage(rating2);
-                activity3.setImage(rating3);
-                activity4.setImage(rating1);
-                activity5.setImage(rating2);
-                break;
-            default:
-                activity1.setImage(rating2);
-                activity2.setImage(rating2);
-                activity3.setImage(rating2);
-                activity4.setImage(rating2);
-                activity5.setImage(rating2);
-                break;
-        }
+//</editor-fold>
+        //<editor-fold defaultstate="collapsed" desc="rating bars">
+switch(weather.code)
+{
+    case "1":
+    case "2":
+    case "3":
+    case "4":
+    case "5":
+    case "6":
+    case "7":
+    case "8":
+    case "9":
+    case "10":
+    case "11":
+    case "12":
+    case "13":
+    case "14":
+    case "15":
+    case "16":
+    case "17":
+    case "18":
+    case "19":
+    case "22":
+    case "23":
+    case "35":
+    case "37":
+    case "38":
+    case "39":
+    case "40":
+    case "41":
+    case "42":
+    case "43":
+        activity1.setImage(rating2);
+        activity2.setImage(rating2);
+        activity3.setImage(rating3);
+        activity4.setImage(rating2);
+        activity5.setImage(rating1);
+        break;
+    case "30":
+    case "34":
+    case "44":
+        activity1.setImage(rating3);
+        activity2.setImage(rating2);
+        activity3.setImage(rating3);
+        activity4.setImage(rating2);
+        activity5.setImage(rating3);
+        break;
+    case "32":
+    case "36":
+        activity1.setImage(rating3);
+        activity2.setImage(rating3);
+        activity3.setImage(rating4);
+        activity4.setImage(rating4);
+        activity5.setImage(rating4);
+        break;
+    case "27":
+    case "29":
+    case "31":
+    case "33":
+        activity1.setImage(rating2);
+        activity2.setImage(rating3);
+        activity3.setImage(rating2);
+        activity4.setImage(rating2);
+        activity5.setImage(rating3);
+        break;
+    case "20":
+    case "21":
+    case "26":
+        activity1.setImage(rating1);
+        activity2.setImage(rating1);
+        activity3.setImage(rating2);
+        activity4.setImage(rating1);
+        activity5.setImage(rating2);
+        break;
+    case "28":
+        activity1.setImage(rating3);
+        activity2.setImage(rating2);
+        activity3.setImage(rating3);
+        activity4.setImage(rating2);
+        activity5.setImage(rating2);
+        break;
+    case "25":
+    case "24":
+        activity1.setImage(rating2);
+        activity2.setImage(rating1);
+        activity3.setImage(rating3);
+        activity4.setImage(rating2);
+        activity5.setImage(rating2);
+        break;
+    default:
+        activity1.setImage(rating2);
+        activity2.setImage(rating2);
+        activity3.setImage(rating2);
+        activity4.setImage(rating2);
+        activity5.setImage(rating2);
+        break;
+}
+//</editor-fold>
     }
      public void goiphone() throws IOException 
     {
