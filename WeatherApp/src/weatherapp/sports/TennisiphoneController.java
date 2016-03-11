@@ -126,7 +126,6 @@ public class TennisiphoneController implements Initializable {
         try 
         {
             Stage stage = (Stage) goipad.getScene().getWindow();
-            System.out.println("ok");
             Parent root = FXMLLoader.load(getClass().getResource("Tennis.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
