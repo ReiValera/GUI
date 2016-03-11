@@ -44,22 +44,22 @@
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="181.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running1.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="249.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running2.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="317.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running3.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="58.0" layoutX="14.0" layoutY="384.0">
          <image>
-            <Image url="@../../resources/rugby1.png" />
+            <Image url="@../../resources/running4.png" />
          </image>
       </ImageView>
       <Button fx:id="goback" layoutX="239.0" layoutY="448.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
