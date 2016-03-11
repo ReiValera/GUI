@@ -134,5 +134,45 @@
             <Image url="@../../resources/basketball4.png" />
          </image>
       </ImageView>
+      <Label layoutX="79.0" layoutY="181.0" text="Address: 55 Durward St, London E1 5BA">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="193.0" text="Phone: 020 7247 7538">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="249.0" text="Address: King Street Hammersmith London W6 9JU">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="261.0" text="Phone : 02087483020">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="317.0" text="Address : 1 Hillman StreetE8 1DY">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="329.0" text="Phone : 02083567422">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="386.0" text="Address : Christchurch Rd Hampshire BH24 3BB">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="398.0" text="Phone : 02077001888 ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
