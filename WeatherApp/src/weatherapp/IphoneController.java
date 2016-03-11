@@ -51,7 +51,9 @@ public class IphoneController implements Initializable {
     Label temp;
     @FXML
     ImageView icon;
-    
+    @FXML
+    private Label date;
+        
     Image mostlyCloudy = new Image("resources/mostlycloudy.gif");
     Image mostlySunny = new Image("resources/mostlysunny.gif");
     Image rain = new Image("resources/rainy.gif");
@@ -69,6 +71,8 @@ public class IphoneController implements Initializable {
         temp.setText(weather.CurrentTemp);
         location.setText(weather.Location);
         condition.setText(weather.Condition);
+        date.setText(weather.date);
+
         switch(weather.code)
         {
             case "1":
