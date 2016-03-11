@@ -174,17 +174,17 @@ public class BasketballController implements Initializable {
             case "41":
             case "42":
             case "43":
-                activity1.setImage(rating1);
+                activity1.setImage(rating2);
                 activity2.setImage(rating3);
-                activity3.setImage(rating2);
-                activity4.setImage(rating3);
+                activity3.setImage(rating1);
+                activity4.setImage(rating1);
                 activity5.setImage(rating1);
                 break;
             case "30":
             case "34":
             case "44":
-                activity1.setImage(rating3);
-                activity2.setImage(rating2);
+                activity1.setImage(rating2);
+                activity2.setImage(rating1);
                 activity3.setImage(rating2);
                 activity4.setImage(rating3);
                 activity5.setImage(rating3);
@@ -192,18 +192,18 @@ public class BasketballController implements Initializable {
             case "32":
             case "36":
                 activity1.setImage(rating4);
-                activity2.setImage(rating4);
+                activity2.setImage(rating3);
                 activity3.setImage(rating2);
-                activity4.setImage(rating3);
+                activity4.setImage(rating4);
                 activity5.setImage(rating4);
                 break;
             case "27":
             case "29":
             case "31":
             case "33":
-                activity1.setImage(rating2);
-                activity2.setImage(rating3);
-                activity3.setImage(rating2);
+                activity1.setImage(rating1);
+                activity2.setImage(rating2);
+                activity3.setImage(rating3);
                 activity4.setImage(rating2);
                 activity5.setImage(rating3);
                 break;
@@ -212,23 +212,23 @@ public class BasketballController implements Initializable {
             case "26":
                 activity1.setImage(rating1);
                 activity2.setImage(rating2);
-                activity3.setImage(rating1);
-                activity4.setImage(rating2);
+                activity3.setImage(rating2);
+                activity4.setImage(rating1);
                 activity5.setImage(rating1);
                 break;
             case "28":
-                activity1.setImage(rating2);
-                activity2.setImage(rating3);
+                activity1.setImage(rating3);
+                activity2.setImage(rating1);
                 activity3.setImage(rating2);
                 activity4.setImage(rating3);
                 activity5.setImage(rating3);
                 break;
             case "25":
             case "24":
-                activity1.setImage(rating1);
-                activity2.setImage(rating1);
-                activity3.setImage(rating3);
-                activity4.setImage(rating2);
+                activity1.setImage(rating3);
+                activity2.setImage(rating2);
+                activity3.setImage(rating1);
+                activity4.setImage(rating3);
                 activity5.setImage(rating1);
                 break;
             default:
