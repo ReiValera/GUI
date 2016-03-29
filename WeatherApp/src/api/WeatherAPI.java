@@ -126,7 +126,7 @@ public class WeatherAPI
 			Adapted from: http://stackoverflow.com/questions/1381617/simplest-way-to-correctly-load-html-from-web-page-into-a-string-in-java
 			Answer provided by: erickson
 			*/
-			URL url = new URL("http://weather.yahooapis.com/forecastrss?w="+city+"&u=c");
+			URL url = new URL("http://xml.weather.yahoo.com/forecastrss?w="+city+"&u=c");
 			URLConnection con = url.openConnection();
 			Pattern p = Pattern.compile("text/html;\\s+charset=([^\\s]+)\\s*");
 			Matcher m = p.matcher(con.getContentType());
